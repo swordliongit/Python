@@ -1,0 +1,27 @@
+Hallo: Hello 
+Moin:Hallo-North 
+Servus:Hi,Bye-Southern
+Hoi:Hi-Swiss
+Los geht's: Let's go
+Morgen/Guten Morgen: Good morning
+Freut mich: Nice to meet you
+Freut mich auch: Nice to meet you too
+Wie heißt du?: What's your name?
+Auf Wiedersehen: Goodbye
+Guten Tag: Good day
+Frau/Fr.: Mrs.
+Herr/Hr.: Mr.
+liebe: love
+Ich heiße: My name
+Wien: Vienna
+Wie bitte?: Pardon me?
+Entschuldigung: Sorry, Excuse me
+Bitte: You're welcome, please, there you go
+Kein Problem: No problem
+Ja: Yes
+Nein: No
+Und dir?: And you?
+Wie geht's?: How is it going?
+Mir geht's gut: It's going good
+schlecht: bad
+die Straße: street

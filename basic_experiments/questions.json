@@ -1,0 +1,10 @@
+[
+{"Question": "What's the capital of Turkey? : ", 
+"Answers": ["Antalya", "Ankara", "Mardin", "Muğla"]},
+
+{"Question": "What's the largest shark species in the world : ",
+"Answers": ["Tiger Shark", "Great White Shark", "Whale Shark", "Bull Shark"]},
+
+{"Question": "What's your favourite video game genre : ",
+"Answers": ["Action", "Action-Horror", "Platformer", "Survival horor"]}
+]
