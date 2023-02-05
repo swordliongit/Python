@@ -334,6 +334,17 @@ For
 for item in range(10):
     ...
     
+# XXX
+else in for loop
+# XXX
+
+# else is executed if the loop is not prematurely exited.
+for item in range(10):
+    ...
+else:
+    ...
+
+    
 """
 Match - Case
 """
