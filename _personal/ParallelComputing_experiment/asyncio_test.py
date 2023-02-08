@@ -1,4 +1,1 @@
-
-from seleni
-
-driver = webdriver.Chrome("Python/modem_master_odoo/support/chromedriver")
+{'default_is_company': True}
