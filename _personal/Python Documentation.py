@@ -861,6 +861,18 @@ functools
     def func():
         ...
 
+
+"""
+psutil - How to kill .exe(process)
+"""
+import psutil
+PROCNAME = "Master Modem Odoo.exe"
+for proc in psutil.process_iter():
+    # check whether the process name matches
+    if proc.name() == PROCNAME:
+        proc.kill()
+
+
 """"""""""""""""""""""""
 """"""""""""""""""""""""
 # XXX Networking XXX
@@ -1218,9 +1230,9 @@ THREADS
     """
     Better join - Wait Group
     """
-        # XXX XXX 
-        With join, we call join for each thread
-        # XXX XXX
+    # XXX XXX 
+    With join, we call join for each thread
+    # XXX XXX
         
         import os
         from os.path import isdir, join
@@ -1348,6 +1360,26 @@ THREADS
     blue = Thread(target=wait_on_barrier, args=("blue", 10))
     red.start()
     blue.start()
+    
+    """
+    Limiting threads with Semaphore
+    """
+    # XXX
+    Limits active thread number. e.g 25. New threads will take their place when they are done.
+    # XXX
+    from threading import Semaphore
+    # caller function                                                       # target function
+    threads = []                                                            def func(thread_semaphore):
+    thread_limit = 25                                                           with thread_semaphore:
+    thread_semaphore = Semaphore(thread_limit)                                      # do work 
+    # from WaitGroup import WaitGroup
+    
+    for i in range(100):
+        t = threading.Thread(target=func, args=(thread_semaphore))
+        threads.append(t)
+        t.start()
+    for t in threads:
+        t.join()
     
 """
 PROCESSES
