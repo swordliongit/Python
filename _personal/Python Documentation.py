@@ -82,6 +82,14 @@ None # null
 ...  # -> means we don't know what to come
 pass # empty code
 
+"""
+Magic Variables
+"""
+
+__name__ # name of the file
+__file__ # name of the file with the full path included
+
+
 """"""""""""""""""""""""
 """"""""""""""""""""""""
 # XXX MODULES XXX
@@ -857,20 +865,106 @@ functools
     cache
     """
     
-    @cache # speeds up time you can use lru_cache() as well
-    def func():
-        ...
+        @cache # speeds up time you can use lru_cache() as well
+        def func():
+            ...
 
 
 """
 psutil - How to kill .exe(process)
 """
-import psutil
-PROCNAME = "Master Modem Odoo.exe"
-for proc in psutil.process_iter():
-    # check whether the process name matches
-    if proc.name() == PROCNAME:
-        proc.kill()
+    import psutil
+    PROCNAME = "Master Modem Odoo.exe"
+    for proc in psutil.process_iter():
+        # check whether the process name matches
+        if proc.name() == PROCNAME:
+            proc.kill()
+
+
+"""
+pipe - SQL like syntax
+"""
+    from pipe import select, where, chain, traverse, groupby, dedup
+    """
+    where - filters iterables
+    """
+        arr = [0, 1, 2, 3, 5, 6]
+        print(list(arr | where(lambda x: x > 5)))
+    
+    """
+    select - applies the function to every element of the iterable
+    """
+        arr = [0, 1, 2, 3, 5, 6]
+        print(list(arr | select(lambda x: x**2))) # takes power of every element in the iterable
+        
+        # NOTE
+        EXAMPLE: Combining multiple functions
+        # NOTE
+        arr = [0, 1, 2, 3, 5, 6]
+        print(list(arr 
+                | where(lambda x: x > 5)
+                | select(lambda x: x**2))) # filter elements larger than 5 and raise them to the power of 2
+    
+    """
+    chain - chain multiple iterators together in an iterator
+    """
+        arr = [[0, 1, [2]], [[3, 4]]]
+        print(list(arr | chain)) # -> [0, 1, [2], [3, 4]]
+    
+    """
+    traverse - flatten out a deeply nested iterator/recursively unfold iterables    
+    """
+        arr = [[0, 1, [2]], [[3, 4]]]
+        print(list(arr | traverse)) # -> [0, 1, 2, 3, 4]
+        
+        # NOTE
+        EXAMPLE: Get values of a dict and flatten the list
+        # NOTE
+        
+        fruits = [
+            {"name": "apple", "price":[2,5]},
+            {"name": "orange", "price": 4},
+            {"name", "grape", "price": 5}
+        ]
+
+        print(list(fruits 
+                    | select(lambda fruit: fruit["price"])
+                    | traverse)) # [2, 5, 4, 5]
+        
+    """
+    groupby - divide the iterable into chunks based on conditions
+    """
+        arr = (0, 1, 2, 3, 4, 5, 6)
+
+        print(list(arr
+                | groupby(lambda x: "Even" if x % 2==0 else "Odd") # -> [('Even', <itertools._grouper at 0x7fbea8030550>), ('Odd', <itertools._grouper at 0x7fbea80309a0>)]
+                | select(lambda x: {x[0]: list(x[1])} ))) # -> [{'Even': [0, 2, 4, 6]}, {'Odd': [1, 3, 5]}]
+
+        # selecting items larger than 2:
+        
+        arr = [0, 1, 2, 3, 4, 5, 6]
+
+        print(list(arr
+                | groupby(lambda x: "Even" if x % 2==0 else "Odd")
+                | select(lambda x: {x[0]: list(x[1] | where(lambda x: x > 2))}))) # -> [{'Even': [4, 6]}, {'Odd': [3, 5]}]
+                    
+    """
+    dedup - remove duplicates from the iterable
+    """
+    
+        arr = [1, 1, 1, 2, 3, 4, 4, 5]
+        
+        print(list(arr | dedup)) # [1, 2, 3, 4, 5]
+        
+
+        # NOTE
+        dedup can determine the uniqueness of the selection
+        # NOTE
+        
+        arr = [1, 2, 2, 3, 4, 5, 6, 6, 7, 9, 3, 3, 1]
+        print(list(arr | dedup(lambda key: key < 5)))
+        # -> [1, 5] e.g. : retrieves first occurances of elements smaller than or equal to 5 and remove their duplicates
+    
 
 
 """"""""""""""""""""""""
@@ -1433,7 +1527,42 @@ if __name__ == "__main__":
                 time.sleep(2)
                 for i in range(10):
                     arr[i] = j
+    """
+    Communication between Processes
+    """
+        """
+        End to End Pipe Communication
+        """
+        
+            from multiprocessing import Pipe, Process
+            import time
+
+            def server(pipe):
+                while(True):
+                    pipe.send(["server", time.time()])
+                    msgfrom_client = pipe.recv()
+                    print(msgfrom_client)
+                    time.sleep(1)
+                    
+            def client(pipe):
+                while(True):
+                    msgfrom_server = pipe.recv()
+                    print(msgfrom_server)
+                    pipe.send(["client", time.time()])
+                    time.sleep(1)
+                    
+            if __name__ == "__main__":
+                pipe_end_server, pipe_end_client = Pipe()
+                p1 = Process(target=server, args=(pipe_end_server,))
+                p2 = Process(target=client, args=(pipe_end_client,))
+                p1.start()
+                p2.start()
     
+        """
+        Polling a Pipe end
+        """
+            if not pipe_end_server.poll(timeout=5):
+                print("server is offline!")
 """
 Events
 """

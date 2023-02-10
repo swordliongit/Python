@@ -20,8 +20,6 @@ async def handler(websocket, path):
         await asyncio.wait_for(connected_clients["client2"].ping(), timeout=10)
     except:
         connected_clients.pop("client2", None)
-
-        
         
     print(f"Number of connected clients: {len(connected_clients)}")
     
