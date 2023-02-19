@@ -15,6 +15,7 @@ def main(height, width, barray):
     screen_height = height*pxsize
     screen_width = width*pxsize
     screen = pygame.display.set_mode((screen_width, screen_height))
+    pygame.display.set_caption("Bitmap Bitarray Converter")
 
     # (red, green, blue)
     c = (0, 150, 255)
@@ -67,10 +68,10 @@ def main(height, width, barray):
 
 # function to read from file into a 2D array
 def read_grid_from_file():
-    barray = [] # will contain lists.
+    barray = [] # will contain lists. e.g [[1,0,1,0], [0,0,0,1]]
     row = []
-    with open("Bitmap-Bitarray-Suite/grid.cpp", "r") as f:
-        for i in range(3):
+    with open("grid.cpp", "r") as f:
+        for _ in range(3):
             f.readline()
         while True:
             line = f.readline()
@@ -91,7 +92,7 @@ def read_grid_from_file():
 
 # function to write the current grid to a file
 def write_grid_to_file(height, width, cell_colors, color_ledon):
-    with open("Bitmap-Bitarray-Suite/grid.cpp", "w") as f:
+    with open("grid.cpp", "w") as f:
         f.write(f"// {height}x{width}\n")
         f.write("std::vector<std::vector<int>> PatternAnimator::grid ="+"\n")
         f.write("{"+"\n")

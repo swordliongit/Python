@@ -119,6 +119,9 @@ def func():         from testD.test import func
 """
 Constants
 """
+# NOTE
+Constants are not true constants and their values can be changed, they are naming conventions.
+# NOTE
 
 CONST = 100 #all capital letters to define a constant
 

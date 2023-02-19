@@ -1,0 +1,9 @@
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+FPS = 60
+
+SPEED = 5
+
+RED = (255, 0, 0)
+# background
+BG = (40, 25, 25) 
