@@ -1,7 +1,23 @@
+from pygame import Surface
 import pygame
 import constants
 from character import Character
 
+# define player movement variables
+moving_left = False
+moving_right = False
+moving_up = False
+moving_down = False
+
+
+# helper function to scale images
+def scale_img(image, scale) -> Surface:
+    w = image.get_width()
+    h = image.get_height()
+    scaled_image = pygame.transform.scale(image, (w * scale, h * scale))
+    return scaled_image
+
+# start pygame
 pygame.init()
 
 # display the screen
@@ -11,15 +27,22 @@ pygame.display.set_caption("Dungeon Crawler")
 # clock for maintaining frame rate
 clock = pygame.time.Clock()
 
-# converts the image to match the format of the screen and makes sure transparent pixels on the image remain transparent
-player_image = pygame.image.load("assets/images/characters/elf/idle/0.png").convert_alpha()
+# load images
+animation_types = ["idle", "run"]
+animation_list = {}
+for animation in animation_types:
+    intermediary_list = []
+    for i in range(4):
+        # converts the image to match the format of the screen and makes sure transparent pixels on the image remain transparent
+        img = pygame.image.load(f"assets/images/characters/elf/{animation}/{i}.png").convert_alpha() # -> Surface
+        img = scale_img(img, constants.SCALE)
+        intermediary_list.append(img)
+    animation_list[animation] = intermediary_list
+print(animation_list)
 # create player
-player = Character(100, 100)
-# define player movement variables
-moving_left = False
-moving_right = False
-moving_up = False
-moving_down = False
+player = Character(100, 100, animation_list)
+
+
 
 
 # main game loop
@@ -45,6 +68,9 @@ while running:
         dy = constants.SPEED
     # move the player now
     player.move(dx, dy)
+    
+    # update the animation
+    player.update()
     
     # draw the player on the screen
     player.draw(screen)
