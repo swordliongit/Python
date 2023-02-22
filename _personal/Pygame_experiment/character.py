@@ -24,6 +24,7 @@ class Character():
         self.rect.center = (x, y)
         
     def draw(self, surface):
+        # this will flip the character if self.flip is True and then draw blit it onto the Rect of the character
         flipped_image = pygame.transform.flip(self.image, self.flip, False)
         surface.blit(flipped_image, self.rect)
         pygame.draw.rect(surface, constants.RED, self.rect, 1)
@@ -49,7 +50,7 @@ class Character():
             self.frame_index = 0
         
     def update_action(self, new_action):
-        # check if the new action is different than the previous one
+        # check if the new action is different than the previous one, change the action if so
         if new_action != self.action:
             self.action = new_action
         
