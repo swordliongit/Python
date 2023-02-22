@@ -6,17 +6,18 @@ import constants
 
 
 class Character():
-    def __init__(self, x, y, animation_list: dict[str:list]) -> None:
-        self.animation_list = animation_list
-        
+    def __init__(self, x, y, mob_animations, char_type) -> None:
+        self.char_type = char_type
+        self.animation_list = mob_animations[char_type]
         # handles flipping the character image
         self.flip = False
         # starting animation frame
         self.frame_index = 0
         self.update_time = pygame.time.get_ticks()
+        # start with idle
         self.running = False
-        self.action = "idle"
-        self.image = animation_list[self.action][self.frame_index]
+        self.action = 0
+        self.image = self.animation_list[self.action][self.frame_index]
         # create a rectangle for the character model
         self.rect = pygame.Rect(0, 0, 40, 40)
         # position the rectangle onto the coordinates that this character will be initialized with
@@ -30,9 +31,9 @@ class Character():
     def update(self):
         # check what action the character is performing
         if self.running == True:
-            self.update_action("run")
+            self.update_action(1)
         else:
-            self.update_action("idle")
+            self.update_action(0)
         
         
         animation_cooldown = 70
@@ -64,15 +65,15 @@ class Character():
         if dx != 0 or dy != 0:
             self.running = True
         
-        # normalize diagonal speeding to be the same as vertical or horizontal speeding
-        if dx != 0 and dy != 0:
-            dx = dx * (math.sqrt(2)/2)
-            dy = dy * (math.sqrt(2)/2)
-        
         if dx < 0:
             self.flip = True
         if dx > 0:
             self.flip = False
+        # normalize diagonal speeding to be the same as vertical or horizontal speeding
+        if dx != 0 and dy != 0:
+            dx = dx * (math.sqrt(2)/2)
+            dy = dy * (math.sqrt(2)/2)
+    
         
         self.rect.x += dx
         self.rect.y += dy

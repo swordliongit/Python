@@ -27,20 +27,27 @@ pygame.display.set_caption("Dungeon Crawler")
 # clock for maintaining frame rate
 clock = pygame.time.Clock()
 
-# load images
+
+#load character images
+mob_animations = []
+mob_types = ["elf", "imp", "skeleton", "goblin", "muddy", "tiny_zombie", "big_demon"]
+
 animation_types = ["idle", "run"]
-animation_list = {}
-for animation in animation_types:
-    intermediary_list = []
-    for i in range(4):
-        # converts the image to match the format of the screen and makes sure transparent pixels on the image remain transparent
-        img = pygame.image.load(f"assets/images/characters/elf/{animation}/{i}.png").convert_alpha() # -> Surface
-        img = scale_img(img, constants.SCALE)
-        intermediary_list.append(img)
-    animation_list[animation] = intermediary_list
-print(animation_list)
+for mob in mob_types:
+    #load images
+    animation_list = []
+    for animation in animation_types:
+    #reset temporary list of images
+        temp_list = []
+        for i in range(4):
+            img = pygame.image.load(f"assets/images/characters/{mob}/{animation}/{i}.png").convert_alpha()
+            img = scale_img(img, constants.SCALE)
+            temp_list.append(img)
+        animation_list.append(temp_list)
+    mob_animations.append(animation_list)
+print(mob_animations)
 # create player
-player = Character(100, 100, animation_list)
+player = Character(100, 100, mob_animations, 1)
 
 
 
