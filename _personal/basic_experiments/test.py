@@ -1,35 +1,7 @@
-from threading import Thread, Lock
-import time
 
 
-def red_robot(lock1, lock2):
-    while True:
-        print("Red: Acquiring lock 1...")
-        lock1.acquire()
-        print("Red: Acquiring lock 2...")
-        lock2.acquire()
-        print("Red: Locks acquired...")
-        lock1.release()
-        lock2.release()
-        print("Red: Locks released")
-        time.sleep(0.5)
+A = {1, 5, 7, 9}
 
-def blue_robot(lock1, lock2):
-    while True:
-        print("Blue: Acquiring lock 2...")
-        lock2.acquire()
-        print("Blue: Acquiring lock 1...")
-        lock1.acquire()
-        print("Blue: Locks acquired...")
-        lock1.release()
-        lock2.release()
-        print("Blue: Locks released")
-        time.sleep(0.5)
+B = {0, 2, 5, 7, 8, 9}
 
-
-mutex1 = Lock()
-mutex2 = Lock()
-red = Thread(target=red_robot, args=(mutex1, mutex2))
-blue = Thread(target=blue_robot, args=(mutex1, mutex2))
-red.start()
-blue.start()
+print(A[0])

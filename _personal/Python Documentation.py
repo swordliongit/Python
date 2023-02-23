@@ -22,6 +22,10 @@ dir(str)
 
 help(str.capitalize())
 
+"""python
+
+"""
+
 """
 Shallow and Deep Copy
 """
@@ -311,7 +315,7 @@ for val in ndict.items(): # retrieves values from ndict
 
 
     """
-    Dictionary methods
+    Dictionary Methods
     """
         dict.pop(__key)
         dict.keys()
@@ -325,6 +329,21 @@ for val in ndict.items(): # retrieves values from ndict
         for x in our_dict.items():
             print(x[0]) # x[0] == 'key1'  x[1] == val1
 
+"""
+Set
+"""
+# NOTE
+Unordered, unchangeable, unindexed, no duplicates
+# NOTE
+
+A = {1, 2, 3}
+
+    """
+    Set Methods
+    """
+        A.difference(B)
+        A.intersection(B)
+        A.union(B)
 
 """"""""""""""""""""""""
 """"""""""""""""""""""""
