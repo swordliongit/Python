@@ -47,7 +47,7 @@ for mob in mob_types:
     mob_animations.append(animation_list)
 print(mob_animations)
 # create player
-player = Character(100, 100, mob_animations, 0)
+player = Character(100, 100, mob_animations, 6)
 
 
 
