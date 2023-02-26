@@ -4,18 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "444863d9d81064c0",
+        "id": "cf5b1b88fa2e7e22",
         "type": "tabs",
         "children": [
           {
-            "id": "c90b146746206e4d",
+            "id": "fe540aafee243c10",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "26b8672029a3fec5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "BASIC CONCEPTS/Modules/MODULES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4576b030439a40c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BASIC CONCEPTS/Modules/Map.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -65,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d4c953d74f3fae30",
@@ -81,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BASIC CONCEPTS/Modules/Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "BASIC CONCEPTS/Modules/Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "BASIC CONCEPTS/Modules/Map.md"
+              }
             }
           }
         ]
@@ -138,6 +169,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c90b146746206e4d",
-  "lastOpenFiles": []
+  "active": "4576b030439a40c4",
+  "lastOpenFiles": [
+    "BASIC CONCEPTS/Modules/MODULES.md",
+    "BASIC CONCEPTS/Modules/Map.md",
+    "BASIC CONCEPTS/Modules/Untitled",
+    "BASIC CONCEPTS/Modules/Imports.md",
+    "BASIC CONCEPTS/BASIC CONCEPTS.md",
+    "General Information.md",
+    "BASIC CONCEPTS/Functions/Common Functions.md",
+    "BASIC CONCEPTS/Functions/FUNCTIONS.md",
+    "BASIC CONCEPTS/Functions/Function Basics.md",
+    "BASIC CONCEPTS/Files and Directories/Directories.md",
+    "BASIC CONCEPTS/Files and Directories/Files.md",
+    "BASIC CONCEPTS/Files and Directories/FILES AND DIRECTORIES.md",
+    "BASIC CONCEPTS/Control Flow/With Context Manager.md",
+    "BASIC CONCEPTS/Control Flow/While.md",
+    "BASIC CONCEPTS/Control Flow/Ternary.md",
+    "BASIC CONCEPTS/Control Flow/Match-Case.md",
+    "BASIC CONCEPTS/Control Flow/Enumerate.md",
+    "BASIC CONCEPTS/Control Flow/For.md",
+    "BASIC CONCEPTS/Control Flow/Exception Handling.md",
+    "BASIC CONCEPTS/Untitled.md",
+    "BASIC CONCEPTS/Files and Directories",
+    "ADVANCED CONCEPTS/Decorator.md",
+    "ADVANCED CONCEPTS/Asterisk Operator.md",
+    "ADVANCED CONCEPTS/ADVANCED CONCEPTS.md",
+    "BASIC CONCEPTS/Operators/OPERATORS.md",
+    "BASIC CONCEPTS/Operators/_ operator 1.md",
+    "BASIC CONCEPTS/Operators/_ Operator.md",
+    "ADVANCED CONCEPTS/Closure.md",
+    "BASIC CONCEPTS/Functions",
+    "BASIC CONCEPTS/Control Flow",
+    "BASIC CONCEPTS/Collections",
+    "BASIC CONCEPTS/Variables",
+    "BASIC CONCEPTS/Modules",
+    "Untitled.canvas",
+    "BASIC CONCEPTS/Operators",
+    "BASIC CONCEPTS",
+    "ADVANCED CONCEPTS"
+  ]
 }

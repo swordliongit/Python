@@ -2,6 +2,7 @@ from pygame import Surface
 import pygame
 import constants
 from character import Character
+from weapon import Weapon
 
 # define player movement variables
 moving_left = False
@@ -28,16 +29,19 @@ pygame.display.set_caption("Dungeon Crawler")
 clock = pygame.time.Clock()
 
 
-#load character images
+# load weapon images
+bow_image = pygame.image.load("assets/images/weapons/bow.png").convert_alpha()
+
+# load character images
 mob_animations = []
 mob_types = ["elf", "imp", "skeleton", "goblin", "muddy", "tiny_zombie", "big_demon"]
 
 animation_types = ["idle", "run"]
 for mob in mob_types:
-    #load images
+    # load images
     animation_list = []
     for animation in animation_types:
-    #reset temporary list of images
+    # reset temporary list of images
         temp_list = []
         for i in range(4):
             img = pygame.image.load(f"assets/images/characters/{mob}/{animation}/{i}.png").convert_alpha()
@@ -46,9 +50,11 @@ for mob in mob_types:
         animation_list.append(temp_list)
     mob_animations.append(animation_list)
 print(mob_animations)
-# create player
-player = Character(100, 100, mob_animations, 6)
 
+# create player
+player = Character(100, 100, mob_animations, 0)
+# create player's weapon
+bow = Weapon(bow_image)
 
 
 
@@ -78,9 +84,11 @@ while running:
     
     # update the animation
     player.update()
+    bow.update(player)
     
     # draw the player on the screen
     player.draw(screen)
+    bow.draw(screen)
     
     # event handler
     for event in pygame.event.get():

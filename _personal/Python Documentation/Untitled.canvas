@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"file","file":"ADVANCED CONCEPTS/Shallow vs Deep Copy.md","id":"ff9ab06011bc5a6a","x":-620,"y":-160,"width":400,"height":400},
+		{"type":"file","file":"How to turn .py to .exe.md","id":"c0e1aeb7a642b91c","x":-80,"y":-680,"width":400,"height":400},
+		{"id":"5661be3ad18e8039","x":58,"y":473,"width":250,"height":60,"type":"text","text":"makarna\n"}
+	],
+	"edges":[
+		{"id":"ffe49a1e70b6c8af","fromNode":"ff9ab06011bc5a6a","fromSide":"right","toNode":"c0e1aeb7a642b91c","toSide":"bottom"},
+		{"id":"c90f5bf15fe98bfd","fromNode":"ff9ab06011bc5a6a","fromSide":"right","toNode":"5661be3ad18e8039","toSide":"left"},
+		{"id":"ac71a6cb54470b8e","fromNode":"5661be3ad18e8039","fromSide":"right","toNode":"c0e1aeb7a642b91c","toSide":"right"}
+	]
+}

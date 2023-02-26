@@ -1,7 +1,7 @@
 
+x = int(input())
 
-A = {1, 5, 7, 9}
+output = "Even" if x % 2 == 0 else "Odd"
 
-B = {0, 2, 5, 7, 8, 9}
 
-print(A[0])
+print(output)

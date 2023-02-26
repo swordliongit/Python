@@ -1,0 +1,6 @@
+[[Function Basics]]
+[[Common Functions]]
+[[Anonymous Functions - Lambda]]
+[[Decorator]]
+[[Generator]]
+[[Closure]]

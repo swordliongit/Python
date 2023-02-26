@@ -35,7 +35,7 @@ list1 = [1, 2, 3]
 list2 = list1
 
 list2[0] = 4 # Also changes list1 - Shallow copy
-
+    
 ------------
 
 list2 = list1[:]
@@ -206,7 +206,6 @@ String
         str.strip("ch to strip from")
         str.title()
         str.capitalize()
-        str.replace(".", "-" ,...)
         str.join(["item1", "item2"])
         str.replace("str to be replaced", "str to replace")
         str.startswith("str to find") # -> returns True/False

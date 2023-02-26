@@ -1,1 +1,10 @@
-{}
+{
+  "persistent-graph:save-node-positions": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ]
+}

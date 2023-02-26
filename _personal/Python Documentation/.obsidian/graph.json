@@ -1,0 +1,79 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Advanced Concepts\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Operators\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Modules\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Variables\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Collections\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Control Flow\"",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Functions\"",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "path:\"BASIC CONCEPTS/Files and Directories\"",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.7,
+  "nodeSizeMultiplier": 1.2484375,
+  "lineSizeMultiplier": 0.559375,
+  "collapse-forces": false,
+  "centerStrength": 0.0416666666666667,
+  "repelStrength": 5.10416666666667,
+  "linkStrength": 0.5,
+  "linkDistance": 189,
+  "scale": 0.5087618855792594,
+  "close": true
+}
