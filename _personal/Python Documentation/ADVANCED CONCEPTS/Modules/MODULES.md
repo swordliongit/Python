@@ -1,3 +1,6 @@
 [[functools]]
 [[psutil]]
 [[pipe - SQL like syntax]]
+[[netifaces]]
+[[networking - scapy]]
+[[selenium]]
