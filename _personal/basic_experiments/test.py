@@ -1,7 +1,7 @@
 
-x = int(input())
+# Original dictionary
+d = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
+# Use filter() to filter out odd values
+filtered_dict = dict(filter(lambda x: x[1] % 2 == 0, d.items()))
 
-output = "Even" if x % 2 == 0 else "Odd"
-
-
-print(output)
+print(filtered_dict)

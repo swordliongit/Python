@@ -1,5 +1,5 @@
 [[Function Basics]]
-[[Common Functions]]
+[[Built-in Functions]]
 [[Anonymous Functions - Lambda]]
 [[Decorator]]
 [[Generator]]

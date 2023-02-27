@@ -1,169 +1,269 @@
 {
   "nodePositions": [
     {
-      "id": "ADVANCED CONCEPTS/ADVANCED CONCEPTS.md",
-      "x": 70.43656158447266,
-      "y": -832.3048706054688
-    },
-    {
-      "id": "ADVANCED CONCEPTS/Decorator.md",
-      "x": -154.04745483398438,
-      "y": -742.8458862304688
-    },
-    {
-      "id": "ADVANCED CONCEPTS/Generator.md",
-      "x": -253.85348510742188,
-      "y": -809.4654541015625
-    },
-    {
-      "id": "ADVANCED CONCEPTS/Shallow vs Deep Copy.md",
-      "x": 122.58419799804688,
-      "y": -1040.9222412109375
-    },
-    {
-      "id": "BASIC CONCEPTS/BASIC CONCEPTS.md",
-      "x": -169.8554229736328,
-      "y": -3.5399889945983887
-    },
-    {
-      "id": "BASIC CONCEPTS/Collections/COLLECTIONS.md",
-      "x": -529.98876953125,
-      "y": -135.11288452148438
-    },
-    {
-      "id": "BASIC CONCEPTS/Collections/Dictionary.md",
-      "x": -700.693603515625,
-      "y": -286.6229553222656
-    },
-    {
-      "id": "BASIC CONCEPTS/Collections/List.md",
-      "x": -579.2018432617188,
-      "y": -348.19281005859375
-    },
-    {
-      "id": "BASIC CONCEPTS/Collections/Set.md",
-      "x": -756.23779296875,
-      "y": -171.97793579101562
-    },
-    {
-      "id": "BASIC CONCEPTS/Collections/Tuple.md",
-      "x": -729.8522338867188,
-      "y": -39.256710052490234
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/CONTROL FLOW.md",
-      "x": 108.71617889404297,
-      "y": 421.6704406738281
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/Enumerate.md",
-      "x": -87.35399627685547,
-      "y": 502.8459777832031
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/Exception Handling.md",
-      "x": 323.86541748046875,
-      "y": 348.8787536621094
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/For.md",
-      "x": 295.7044372558594,
-      "y": 577.3186645507812
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/Match-Case.md",
-      "x": 79.47008514404297,
-      "y": 660.95263671875
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/Ternary.md",
-      "x": 243.87750244140625,
-      "y": 259.42633056640625
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/While.md",
-      "x": 198.7707977294922,
-      "y": 648.0480346679688
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/With Context Manager.md",
-      "x": -27.69609260559082,
-      "y": 606.9644775390625
-    },
-    {
-      "id": "BASIC CONCEPTS/Control Flow/Zip.md",
-      "x": 343.51165771484375,
-      "y": 467.2569274902344
-    },
-    {
-      "id": "BASIC CONCEPTS/Functions/Anonymous Functions - Lambda.md",
-      "x": -49.055419921875,
-      "y": -519.9781494140625
-    },
-    {
-      "id": "BASIC CONCEPTS/Functions/FUNCTIONS.md",
-      "x": -253.74441528320312,
-      "y": -515.7649536132812
-    },
-    {
-      "id": "BASIC CONCEPTS/Functions/Function Basics.md",
-      "x": -112.82588195800781,
-      "y": -367.7042236328125
-    },
-    {
-      "id": "BASIC CONCEPTS/Modules/Modules.md",
-      "x": -264.8537902832031,
-      "y": 173.2512969970703
-    },
-    {
-      "id": "BASIC CONCEPTS/Operators/OPERATORS.md",
-      "x": 132.5401611328125,
-      "y": -213.9469451904297
-    },
-    {
-      "id": "BASIC CONCEPTS/Variables/Constants.md",
-      "x": -532.9034423828125,
-      "y": 498.626953125
-    },
-    {
-      "id": "BASIC CONCEPTS/Variables/Magic Variables.md",
-      "x": -653.71875,
-      "y": 426.6349792480469
-    },
-    {
-      "id": "BASIC CONCEPTS/Variables/String.md",
-      "x": -700.7628784179688,
-      "y": 298.2337646484375
-    },
-    {
-      "id": "BASIC CONCEPTS/Variables/VARIABLES.md",
-      "x": -474.863525390625,
-      "y": 277.5571594238281
-    },
-    {
       "id": "General Information.md",
-      "x": 1221.6260986328125,
-      "y": -208.6179656982422
+      "x": 1675.547119140625,
+      "y": -572.6510620117188
     },
     {
       "id": "How to turn .py to .exe.md",
-      "x": 994.1947021484375,
-      "y": -829.258544921875
+      "x": 1749.6204833984375,
+      "y": 29.939125061035156
     },
     {
-      "id": "ADVANCED CONCEPTS/Closure.md",
-      "x": -54.701995849609375,
-      "y": -674.9991455078125
+      "id": "ADVANCED CONCEPTS/ADVANCED CONCEPTS.md",
+      "x": 238.99124145507812,
+      "y": -800.1819458007812
     },
     {
-      "id": "ADVANCED CONCEPTS/Asterisk Operator.md",
-      "x": 213.00010681152344,
-      "y": -546.9694213867188
+      "id": "ADVANCED CONCEPTS/Shallow vs Deep Copy.md",
+      "x": 315.3185119628906,
+      "y": -969.5189208984375
+    },
+    {
+      "id": "BASIC CONCEPTS/BASIC CONCEPTS.md",
+      "x": -203.1765594482422,
+      "y": 45.41063690185547
+    },
+    {
+      "id": "BASIC CONCEPTS/Collections/COLLECTIONS.md",
+      "x": -650.5792236328125,
+      "y": -28.477466583251953
+    },
+    {
+      "id": "BASIC CONCEPTS/Collections/Dictionary.md",
+      "x": -869.6656494140625,
+      "y": -121.38510131835938
+    },
+    {
+      "id": "BASIC CONCEPTS/Collections/List.md",
+      "x": -784.49609375,
+      "y": -205.91946411132812
+    },
+    {
+      "id": "BASIC CONCEPTS/Collections/Set.md",
+      "x": -890.6221313476562,
+      "y": -3.2300684452056885
+    },
+    {
+      "id": "BASIC CONCEPTS/Collections/Tuple.md",
+      "x": -835.146240234375,
+      "y": 103.17626190185547
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/CONTROL FLOW.md",
+      "x": 21.66185188293457,
+      "y": 714.7510986328125
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/Enumerate.md",
+      "x": -181.2842254638672,
+      "y": 794.4481201171875
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/Exception Handling.md",
+      "x": 248.15530395507812,
+      "y": 708.0580444335938
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/For.md",
+      "x": 160.46279907226562,
+      "y": 890.1987915039062
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/Match-Case.md",
+      "x": -23.543060302734375,
+      "y": 944.8844604492188
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/Ternary.md",
+      "x": 196.80001831054688,
+      "y": 599.6044921875
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/While.md",
+      "x": 88.97667694091797,
+      "y": 986.5730590820312
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/With Context Manager.md",
+      "x": -137.06275939941406,
+      "y": 906.0000610351562
+    },
+    {
+      "id": "BASIC CONCEPTS/Control Flow/Zip.md",
+      "x": 262.5786437988281,
+      "y": 827.184326171875
+    },
+    {
+      "id": "BASIC CONCEPTS/Files and Directories/Directories.md",
+      "x": -406.10369873046875,
+      "y": 473.97076416015625
+    },
+    {
+      "id": "BASIC CONCEPTS/Files and Directories/FILES AND DIRECTORIES.md",
+      "x": -268.5415344238281,
+      "y": 298.1707763671875
+    },
+    {
+      "id": "BASIC CONCEPTS/Files and Directories/Files.md",
+      "x": -268.3018493652344,
+      "y": 513.5532836914062
+    },
+    {
+      "id": "BASIC CONCEPTS/Functions/Anonymous Functions - Lambda.md",
+      "x": -677.220703125,
+      "y": -633.9304809570312
+    },
+    {
+      "id": "BASIC CONCEPTS/Functions/Function Basics.md",
+      "x": -611.8353881835938,
+      "y": -857.9185180664062
+    },
+    {
+      "id": "BASIC CONCEPTS/Functions/FUNCTIONS.md",
+      "x": -458.33929443359375,
+      "y": -683.9790649414062
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/Imports.md",
+      "x": 663.7366333007812,
+      "y": -252.18138122558594
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/MODULES.md",
+      "x": 494.56390380859375,
+      "y": -102.19547271728516
+    },
+    {
+      "id": "BASIC CONCEPTS/Operators/OPERATORS.md",
+      "x": -231.0253448486328,
+      "y": -234.60940551757812
     },
     {
       "id": "BASIC CONCEPTS/Operators/_ Operator.md",
-      "x": 351.198974609375,
-      "y": -160.36044311523438
+      "x": -56.31755828857422,
+      "y": -333.0149841308594
+    },
+    {
+      "id": "BASIC CONCEPTS/Variables/Constants.md",
+      "x": -658.1400756835938,
+      "y": 520.199951171875
+    },
+    {
+      "id": "BASIC CONCEPTS/Variables/Magic Variables.md",
+      "x": -758.7833862304688,
+      "y": 454.8480224609375
+    },
+    {
+      "id": "BASIC CONCEPTS/Variables/String.md",
+      "x": -803.1292114257812,
+      "y": 343.34283447265625
+    },
+    {
+      "id": "BASIC CONCEPTS/Variables/VARIABLES.md",
+      "x": -570.6856079101562,
+      "y": 298.69732666015625
+    },
+    {
+      "id": "BASIC CONCEPTS/Functions/Built-in Functions.md",
+      "x": -680.7654418945312,
+      "y": -759.4961547851562
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/time and datetime.md",
+      "x": 556.3123779296875,
+      "y": -305.65740966796875
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/glob.md",
+      "x": 739.4022827148438,
+      "y": -35.83007049560547
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/json.md",
+      "x": 573.7866821289062,
+      "y": 122.04796600341797
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/csv.md",
+      "x": 340.2148132324219,
+      "y": 35.15557098388672
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/webbrowser.md",
+      "x": 681.5704956054688,
+      "y": 69.3064956665039
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/shutil - zip, archive.md",
+      "x": 371.1188049316406,
+      "y": -264.6056213378906
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/math.md",
+      "x": 453.9967346191406,
+      "y": 115.00334930419922
+    },
+    {
+      "id": "BASIC CONCEPTS/Modules/random.md",
+      "x": 735.1491088867188,
+      "y": -155.74884033203125
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Functions/Closure.md",
+      "x": -267.0074768066406,
+      "y": -862.4945068359375
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Functions/Generator.md",
+      "x": -354.9329528808594,
+      "y": -944.1536254882812
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Functions/Decorator.md",
+      "x": -449.1438903808594,
+      "y": -1018.4738159179688
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Functions/FUNCTIONS.md",
+      "x": -137.0952911376953,
+      "y": -1054.949951171875
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Operators/Asterisk Operator.md",
+      "x": -167.90577697753906,
+      "y": -508.2000427246094
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Operators/OPERATORS.md",
+      "x": 35.09427261352539,
+      "y": -687.5738525390625
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Modules/MODULES.md",
+      "x": 607.19140625,
+      "y": -840.5689697265625
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Modules/functools/functools.md",
+      "x": 671.9656982421875,
+      "y": -489.6992492675781
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Modules/functools/cache - lru cache.md",
+      "x": 893.4319458007812,
+      "y": -571.180419921875
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Modules/psutil.md",
+      "x": 652.8587036132812,
+      "y": -1064.333251953125
+    },
+    {
+      "id": "ADVANCED CONCEPTS/Modules/pipe - SQL like syntax.md",
+      "x": 787.0175170898438,
+      "y": -977.3720092773438
     }
   ],
   "automaticallyRestoreNodePositions": true

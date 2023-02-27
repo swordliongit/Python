@@ -1,5 +1,4 @@
 [[Shallow vs Deep Copy]]
-[[Decorator]]
-[[Generator]]
-[[Closure]]
-[[Asterisk Operator]]
+[[ADVANCED CONCEPTS/Operators/OPERATORS]]
+[[ADVANCED CONCEPTS/Functions/FUNCTIONS]]
+[[ADVANCED CONCEPTS/Modules/MODULES]]
