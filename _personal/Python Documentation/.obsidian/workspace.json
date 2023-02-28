@@ -16,42 +16,6 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "44b33ba25ad73674",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ADVANCED CONCEPTS/Modules/functools/cache - lru cache.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d2451d55e284e48e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ADVANCED CONCEPTS/Modules/MODULES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "383ed807c74d8c65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ADVANCED CONCEPTS/Modules/MODULES.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -178,17 +142,28 @@
   },
   "active": "fe540aafee243c10",
   "lastOpenFiles": [
+    "BASIC CONCEPTS/Modules/json.md",
+    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
+    "ADVANCED CONCEPTS/Functions/Closure.md",
+    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/MULTITHREADING.md",
+    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync With Mutex Locks.md",
+    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Multi-Threading.md",
+    "ADVANCED CONCEPTS/ADVANCED CONCEPTS.md",
+    "ADVANCED CONCEPTS/Parallel Computing/PARALLEL COMPUTING.md",
+    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading",
+    "ADVANCED CONCEPTS/Parallel Computing",
+    "ADVANCED CONCEPTS/Modules/networking - scapy.md",
     "ADVANCED CONCEPTS/Modules/MODULES.md",
+    "ADVANCED CONCEPTS/Modules/selenium.md",
     "ADVANCED CONCEPTS/Modules/pipe - SQL like syntax.md",
+    "ADVANCED CONCEPTS/Modules/netifaces.md",
     "ADVANCED CONCEPTS/Modules/psutil.md",
     "ADVANCED CONCEPTS/Modules/functools/cache - lru cache.md",
     "BASIC CONCEPTS/Modules/MODULES.md",
     "ADVANCED CONCEPTS/Modules/functools/functools.md",
-    "ADVANCED CONCEPTS/ADVANCED CONCEPTS.md",
     "ADVANCED CONCEPTS/Modules",
     "ADVANCED CONCEPTS/Operators/OPERATORS.md",
     "ADVANCED CONCEPTS/Functions/FUNCTIONS.md",
-    "ADVANCED CONCEPTS/Functions/Closure.md",
     "ADVANCED CONCEPTS/Operators",
     "ADVANCED CONCEPTS/Functions/Decorator.md",
     "ADVANCED CONCEPTS/Functions/Generator.md",
@@ -197,23 +172,12 @@
     "ADVANCED CONCEPTS/Modules/functools",
     "BASIC CONCEPTS/Modules/time and datetime.md",
     "BASIC CONCEPTS/Modules/webbrowser.md",
-    "BASIC CONCEPTS/Modules/json.md",
     "BASIC CONCEPTS/Modules/math.md",
     "BASIC CONCEPTS/Modules/random.md",
-    "BASIC CONCEPTS/Modules/shutil - zip, archive.md",
-    "BASIC CONCEPTS/Modules/Imports.md",
-    "BASIC CONCEPTS/Modules/csv.md",
-    "BASIC CONCEPTS/Modules/glob.md",
-    "BASIC CONCEPTS/Modules/Map.md",
-    "BASIC CONCEPTS/Functions/Built-in Functions.md",
-    "BASIC CONCEPTS/Functions/Function Basics.md",
-    "ADVANCED CONCEPTS/Shallow vs Deep Copy.md",
     "Untitled.canvas",
     "BASIC CONCEPTS/Files and Directories",
     "BASIC CONCEPTS/Functions",
     "BASIC CONCEPTS/Control Flow",
-    "BASIC CONCEPTS/Collections",
-    "BASIC CONCEPTS/Variables",
-    "BASIC CONCEPTS/Modules"
+    "BASIC CONCEPTS/Collections"
   ]
 }
