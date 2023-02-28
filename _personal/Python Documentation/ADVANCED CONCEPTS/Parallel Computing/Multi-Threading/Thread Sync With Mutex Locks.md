@@ -1,5 +1,5 @@
 ### Notes:
-1. Prevents threads accessing to the same resource at the same time, eliminating race conditions.
+1. Lock primitive prevents threads accessing to the same resource at the same time, eliminating race conditions.
 
 ```python
 from threading import Thread, Lock

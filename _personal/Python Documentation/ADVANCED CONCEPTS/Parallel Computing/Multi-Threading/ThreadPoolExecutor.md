@@ -47,6 +47,11 @@ with ThreadPoolExecutor() as executor:
 Calls the function as many times as the length of the iterable by passing each item from the iterable as argument.*
 ```python
 with ThreadPoolExecutor() as executor:
+	results = executor.map(func1, [1, 2, 3]) # results is a generator that yields return values of each function call
+```
+
+```python
+with ThreadPoolExecutor() as executor:
 	results = executor.map(func, [i for i in range(50)]) # 50 threads
 
 for res in results:

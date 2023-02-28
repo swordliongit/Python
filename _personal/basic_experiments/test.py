@@ -1,7 +1,23 @@
+from multiprocessing import Pipe, Process
+import time
 
-# Original dictionary
-d = {'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5}
-# Use filter() to filter out odd values
-filtered_dict = dict(filter(lambda x: x[1] % 2 == 0, d.items()))
-
-print(filtered_dict)
+def server(pipe):
+    while(True):
+        pipe.send(["server", time.time()])
+        msgfrom_client = pipe.recv()
+        print(msgfrom_client)
+        time.sleep(1)
+        
+def client(pipe):
+    while(True):
+        msgfrom_server = pipe.recv()
+        print(msgfrom_server)
+        pipe.send(["client", time.time()])
+        time.sleep(1)
+        
+if __name__ == "__main__":
+    pipe_end_server, pipe_end_client = Pipe()
+    p1 = Process(target=server, args=(pipe_end_server,))
+    p2 = Process(target=client, args=(pipe_end_client,))
+    p1.start()
+    p2.start()
