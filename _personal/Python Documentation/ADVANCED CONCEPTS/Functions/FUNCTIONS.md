@@ -1,3 +1,0 @@
-[[Closure]]
-[[Decorator]]
-[[Generator]]

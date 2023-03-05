@@ -1,1 +1,0 @@
-[[Asterisk Operator - Packing and Unpacking]]

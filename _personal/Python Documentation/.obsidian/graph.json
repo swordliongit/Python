@@ -8,100 +8,86 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"BASIC CONCEPTS/Operators\"",
+      "query": "path:\"Parallel Computing/Multi-Threading\"",
       "color": {
         "a": 1,
-        "rgb": 15317260
+        "rgb": 14701138
       }
     },
     {
-      "query": "path:\"BASIC CONCEPTS/Modules\"",
+      "query": "path:\"Parallel Computing/Multi-Processing\"",
+      "color": {
+        "a": 1,
+        "rgb": 10029835
+      }
+    },
+    {
+      "query": "path:Variables",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "path:\"BASIC CONCEPTS/Variables\"",
+      "query": "path:Modules",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "path:\"BASIC CONCEPTS/Collections\"",
+      "query": "path:\"Control Flow\"",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "path:\"BASIC CONCEPTS/Control Flow\"",
+      "query": "path:Functions",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
-      "query": "path:\"BASIC CONCEPTS/Functions\"",
+      "query": "path:Collections",
       "color": {
         "a": 1,
         "rgb": 5395168
       }
     },
     {
-      "query": "path:\"BASIC CONCEPTS/Files and Directories\"",
+      "query": "path:Operators",
       "color": {
         "a": 1,
-        "rgb": 11621088
+        "rgb": 14734418
       }
     },
     {
-      "query": "path:\"ADVANCED CONCEPTS/Parallel Computing/Multi-Threading\"",
+      "query": "path:\"Files and Directories\"",
       "color": {
         "a": 1,
-        "rgb": 11678772
+        "rgb": 3503360
       }
     },
     {
-      "query": "path:\"ADVANCED CONCEPTS/Functions\"",
+      "query": "path:OOP",
       "color": {
         "a": 1,
-        "rgb": 2304465
-      }
-    },
-    {
-      "query": "path:\"ADVANCED CONCEPTS/Operators\"",
-      "color": {
-        "a": 1,
-        "rgb": 9597698
-      }
-    },
-    {
-      "query": "path:\"ADVANCED CONCEPTS/Modules\"",
-      "color": {
-        "a": 1,
-        "rgb": 5415680
-      }
-    },
-    {
-      "query": "path:\"ADVANCED CONCEPTS/Parallel Computing/Multi-Processing\"",
-      "color": {
-        "a": 1,
-        "rgb": 9175811
+        "rgb": 14111456
       }
     }
   ],
   "collapse-display": false,
-  "showArrow": true,
+  "showArrow": false,
   "textFadeMultiplier": -1.7,
   "nodeSizeMultiplier": 1.2484375,
   "lineSizeMultiplier": 0.559375,
   "collapse-forces": false,
-  "centerStrength": 0.0416666666666667,
-  "repelStrength": 5.10416666666667,
-  "linkStrength": 0.5,
-  "linkDistance": 189,
-  "scale": 0.4505081176757814,
-  "close": true
+  "centerStrength": 0.114583333333333,
+  "repelStrength": 6.66666666666667,
+  "linkStrength": 0.348958333333333,
+  "linkDistance": 81,
+  "scale": 0.4505081176757815,
+  "close": false
 }

@@ -8,29 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fe540aafee243c10",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "8737f1fa96a08ca4",
+            "id": "eaa9a9461570da15",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
+                "file": "OOP/Proxy Pattern.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
+                "file": "OOP/Proxy Pattern.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
+                "file": "OOP/Proxy Pattern.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md"
+                "file": "OOP/Proxy Pattern.md"
               }
             }
           }
@@ -157,44 +146,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8737f1fa96a08ca4",
+  "active": "eaa9a9461570da15",
   "lastOpenFiles": [
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
-    "ADVANCED CONCEPTS/Functions/Closure.md",
-    "BASIC CONCEPTS/Collections/Tuple.md",
-    "BASIC CONCEPTS/Control Flow/Zip.md",
-    "BASIC CONCEPTS/Collections/Set.md",
-    "ADVANCED CONCEPTS/Modules/Killing Processes - psutil.md",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Processing/MULTIPROCESSING.md",
-    "ADVANCED CONCEPTS/Modules/MODULES.md",
-    "ADVANCED CONCEPTS/Modules/GUI - customtkinter.md",
-    "ADVANCED CONCEPTS/Modules/Connected Devices - netifaces.md",
-    "BASIC CONCEPTS/Modules/Imports.md",
-    "BASIC CONCEPTS/Modules/MODULES.md",
-    "BASIC CONCEPTS/General Information.md",
-    "ADVANCED CONCEPTS/ADVANCED CONCEPTS.md",
-    "BASIC CONCEPTS/BASIC CONCEPTS.md",
-    "ADVANCED CONCEPTS/Modules/How to turn .py to .exe.md",
-    "ADVANCED CONCEPTS/Modules/Networking - scapy.md",
-    "ADVANCED CONCEPTS/Modules/pipe - SQL like syntax.md",
-    "ADVANCED CONCEPTS/Modules/Web Automation - selenium.md",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/MULTITHREADING.md",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Events.md",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Processing/Process Communication.md",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Processing/Process Memory Sharing.md",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Processing/Multi-Processing.md",
-    "ADVANCED CONCEPTS/Parallel Computing/PARALLEL COMPUTING.md",
+    "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
+    "OOP/Proxy Pattern.md",
+    "Modules/MODULES.md",
+    "OOP/OOP.md",
+    "Collections/Set.md",
+    "Shallow vs Deep Copy.md",
+    "General Information.md",
+    "PYTHON.md",
+    "Variables/VARIABLES.md",
+    "Variables/Magic Variables.md",
+    "Variables/Constants.md",
+    "Parallel Computing/PARALLEL COMPUTING.md",
+    "Operators/OPERATORS.md",
+    "OOP/BASIC OOP.md",
+    "Functions/FUNCTIONS.md",
+    "BASIC CONCEPTS/Shallow vs Deep Copy.md",
+    "BASIC CONCEPTS/Operators/Asterisk Operator - Packing and Unpacking.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Waiting for Threads - Wait Group.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Waiting for Threads - Join.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync With Mutex Locks.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Condition.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/MULTITHREADING.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Multi-Threading.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
+    "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
+    "BASIC CONCEPTS/Parallel Computing",
+    "ADVANCED CONCEPTS/OOP/Untitled",
+    "BASIC CONCEPTS/Basic OOP",
+    "ADVANCED CONCEPTS/Advanced OOP",
     "ADVANCED CONCEPTS/Parallel Computing/Multi-Processing",
-    "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
     "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading/Untitled",
     "ADVANCED CONCEPTS/Parallel Computing/Multi-Threading",
     "ADVANCED CONCEPTS/Parallel Computing",
-    "ADVANCED CONCEPTS/Modules",
-    "ADVANCED CONCEPTS/Operators",
-    "ADVANCED CONCEPTS/Functions",
-    "ADVANCED CONCEPTS/Modules/functools",
-    "Untitled.canvas",
-    "BASIC CONCEPTS/Files and Directories",
-    "BASIC CONCEPTS/Functions"
+    "Untitled.canvas"
   ]
 }
