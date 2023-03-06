@@ -4,7 +4,7 @@
 [[json]]
 [[math]]
 [[random]]
-[[shutil - zip, archive]]
+[[Zip files]]
 [[time and datetime]]
 [[webbrowser]]
 [[functools]]
