@@ -1,349 +1,349 @@
 {
   "nodePositions": [
     {
-      "id": "General Information.md",
-      "x": -1574.2010498046875,
-      "y": -496.33026123046875
-    },
-    {
-      "id": "Shallow vs Deep Copy.md",
-      "x": -1182.011962890625,
-      "y": -1130.9642333984375
-    },
-    {
       "id": "Collections/COLLECTIONS.md",
-      "x": -430.3857116699219,
-      "y": -1325.564208984375
+      "x": 1235.640625,
+      "y": -421.86505126953125
     },
     {
       "id": "Collections/Dictionary.md",
-      "x": -324.1651306152344,
-      "y": -1463.6085205078125
+      "x": 1419.0364990234375,
+      "y": -425.1431579589844
     },
     {
       "id": "Collections/List.md",
-      "x": -590.4893798828125,
-      "y": -1396.7366943359375
+      "x": 1308.3707275390625,
+      "y": -592.606201171875
     },
     {
       "id": "Collections/Set.md",
-      "x": -529.1871337890625,
-      "y": -1177.405029296875
+      "x": 1361.156005859375,
+      "y": -268.9706115722656
     },
     {
       "id": "Collections/Tuple.md",
-      "x": -304.6593017578125,
-      "y": -1204.407470703125
-    },
-    {
-      "id": "Control Flow/Enumerate.md",
-      "x": -1078.8192138671875,
-      "y": -605.7020263671875
+      "x": 1120.19140625,
+      "y": -572.23681640625
     },
     {
       "id": "Control Flow/CONTROL FLOW.md",
-      "x": -892.1080932617188,
-      "y": -511.8888244628906
+      "x": 1183.6392822265625,
+      "y": 441.32110595703125
+    },
+    {
+      "id": "Control Flow/Enumerate.md",
+      "x": 1122.48583984375,
+      "y": 656.4521484375
     },
     {
       "id": "Control Flow/Exception Handling.md",
-      "x": -1109.27099609375,
-      "y": -441.5344543457031
+      "x": 1291.4014892578125,
+      "y": 610.8594360351562
     },
     {
       "id": "Control Flow/For.md",
-      "x": -1011.6380004882812,
-      "y": -319.7602844238281
+      "x": 1096.4320068359375,
+      "y": 229.95082092285156
     },
     {
       "id": "Control Flow/Match-Case.md",
-      "x": -665.7879638671875,
-      "y": -562.0855712890625
+      "x": 999.6834716796875,
+      "y": 356.4970397949219
     },
     {
       "id": "Control Flow/Ternary.md",
-      "x": -701.6939086914062,
-      "y": -409.663330078125
-    },
-    {
-      "id": "Control Flow/With Context Manager.md",
-      "x": -943.9549560546875,
-      "y": -712.5670776367188
+      "x": 1244.00244140625,
+      "y": 174.71646118164062
     },
     {
       "id": "Control Flow/While.md",
-      "x": -771.6614990234375,
-      "y": -682.6956787109375
+      "x": 1000.6631469726562,
+      "y": 535.886962890625
+    },
+    {
+      "id": "Control Flow/With Context Manager.md",
+      "x": 1394.1690673828125,
+      "y": 435.5670471191406
     },
     {
       "id": "Control Flow/Zip.md",
-      "x": -845.8779296875,
-      "y": -323.1934814453125
+      "x": 1287.2615966796875,
+      "y": 305.0334777832031
     },
     {
       "id": "Files and Directories/Directories.md",
-      "x": 917.8748168945312,
-      "y": -1157.0899658203125
+      "x": -1135.04296875,
+      "y": 624.8901977539062
     },
     {
       "id": "Files and Directories/FILES AND DIRECTORIES.md",
-      "x": 757.371826171875,
-      "y": -1143.225341796875
+      "x": -977.3871459960938,
+      "y": 599.6133422851562
     },
     {
       "id": "Files and Directories/Files.md",
-      "x": 674.947021484375,
-      "y": -1286.2689208984375
+      "x": -938.0091552734375,
+      "y": 443.86077880859375
     },
     {
       "id": "Functions/Anonymous Functions - Lambda.md",
-      "x": -832.9972534179688,
-      "y": 403.34637451171875
+      "x": -1051.3773193359375,
+      "y": -457.43756103515625
     },
     {
       "id": "Functions/Built-in Functions.md",
-      "x": -786.0422973632812,
-      "y": 229.09947204589844
-    },
-    {
-      "id": "Functions/Decorator.md",
-      "x": -727.8049926757812,
-      "y": 535.111083984375
-    },
-    {
-      "id": "Functions/Function Basics.md",
-      "x": -559.957763671875,
-      "y": 161.06219482421875
+      "x": -865.7342529296875,
+      "y": -189.34811401367188
     },
     {
       "id": "Functions/Closure.md",
-      "x": -436.2027282714844,
-      "y": 297.5906066894531
+      "x": -1032.7481689453125,
+      "y": -74.79208374023438
+    },
+    {
+      "id": "Functions/Decorator.md",
+      "x": -875.4266967773438,
+      "y": -407.94146728515625
     },
     {
       "id": "Functions/FUNCTIONS.md",
-      "x": -636.3329467773438,
-      "y": 341.1708068847656
+      "x": -1033.318115234375,
+      "y": -271.41937255859375
     },
     {
-      "id": "Modules/Connected Devices - netifaces.md",
-      "x": 867.7642822265625,
-      "y": -319.6084899902344
+      "id": "Functions/Function Basics.md",
+      "x": -1198.1549072265625,
+      "y": -146.44802856445312
     },
     {
       "id": "Functions/Generator.md",
-      "x": -532.2697143554688,
-      "y": 485.7222900390625
+      "x": -1223.3663330078125,
+      "y": -323.0959777832031
     },
     {
-      "id": "Modules/csv.md",
-      "x": 935.4808349609375,
-      "y": -190.92137145996094
+      "id": "General Information.md",
+      "x": 460.5711364746094,
+      "y": -1495.1783447265625
     },
     {
-      "id": "Modules/glob.md",
-      "x": 817.3756103515625,
-      "y": 230.6962432861328
+      "id": "Modules/Connected Devices - netifaces.md",
+      "x": 483.7425537109375,
+      "y": -186.566650390625
     },
     {
       "id": "Modules/GUI - customtkinter.md",
-      "x": 741.5885620117188,
-      "y": 104.03166961669922
+      "x": 11.972639083862305,
+      "y": -315.8257751464844
     },
     {
       "id": "Modules/How to turn .py to .exe.md",
-      "x": 755.1795043945312,
-      "y": -210.10394287109375
+      "x": -7.664408206939697,
+      "y": 140.35791015625
     },
     {
       "id": "Modules/Imports.md",
-      "x": 941.6410522460938,
-      "y": 198.32374572753906
-    },
-    {
-      "id": "Modules/json.md",
-      "x": 684.6965942382812,
-      "y": -55.25864028930664
+      "x": 41.984439849853516,
+      "y": -168.14276123046875
     },
     {
       "id": "Modules/Killing Processes - psutil.md",
-      "x": 825.5630493164062,
-      "y": -38.341670989990234
-    },
-    {
-      "id": "Modules/math.md",
-      "x": 1113.3846435546875,
-      "y": -158.48001098632812
+      "x": -98.53047943115234,
+      "y": -11.624311447143555
     },
     {
       "id": "Modules/MODULES.md",
-      "x": 1001.9356689453125,
-      "y": -6.635356903076172
-    },
-    {
-      "id": "Modules/networking - scapy.md",
-      "x": 1225.3919677734375,
-      "y": -20.439807891845703
-    },
-    {
-      "id": "Modules/pipe - SQL like syntax.md",
-      "x": 1177.3326416015625,
-      "y": -289.7747802734375
-    },
-    {
-      "id": "Modules/random.md",
-      "x": 1135.42529296875,
-      "y": 139.990966796875
+      "x": 201.40284729003906,
+      "y": -128.4907684326172
     },
     {
       "id": "Modules/Web Automation - selenium.md",
-      "x": 1056.0570068359375,
-      "y": 267.8165588378906
-    },
-    {
-      "id": "Modules/time and datetime.md",
-      "x": 1028.3065185546875,
-      "y": -335.6167907714844
-    },
-    {
-      "id": "OOP/OOP.md",
-      "x": 18.576797485351562,
-      "y": -230.5842742919922
-    },
-    {
-      "id": "Modules/webbrowser.md",
-      "x": 1284.372314453125,
-      "y": -150.34841918945312
-    },
-    {
-      "id": "OOP/Proxy Pattern.md",
-      "x": 2.0496323108673096,
-      "y": -72.86888122558594
-    },
-    {
-      "id": "Operators/Asterisk Operator - Packing and Unpacking.md",
-      "x": -1491.397705078125,
-      "y": 310.3042297363281
-    },
-    {
-      "id": "Operators/OPERATORS.md",
-      "x": -1437.8372802734375,
-      "y": 465.2882385253906
-    },
-    {
-      "id": "Operators/_ Operator.md",
-      "x": -1375.6485595703125,
-      "y": 617.9349365234375
-    },
-    {
-      "id": "Variables/Constants.md",
-      "x": 296.6297302246094,
-      "y": -1104.8636474609375
-    },
-    {
-      "id": "Parallel Computing/PARALLEL COMPUTING.md",
-      "x": -315.8387756347656,
-      "y": 928.8819580078125
-    },
-    {
-      "id": "Variables/Magic Variables.md",
-      "x": 101.2013168334961,
-      "y": -924.1425170898438
-    },
-    {
-      "id": "Variables/String.md",
-      "x": 142.2216033935547,
-      "y": -1270.59326171875
-    },
-    {
-      "id": "Variables/VARIABLES.md",
-      "x": 129.61083984375,
-      "y": -1093.3734130859375
-    },
-    {
-      "id": "Modules/functools/cache - lru cache.md",
-      "x": 1354.6231689453125,
-      "y": 602.458251953125
-    },
-    {
-      "id": "Modules/functools/functools.md",
-      "x": 1249.2822265625,
-      "y": 402.30859375
-    },
-    {
-      "id": "Parallel Computing/Multi-Processing/Process Communication.md",
-      "x": -639.06640625,
-      "y": 1192.046875
-    },
-    {
-      "id": "Parallel Computing/Multi-Processing/Multi-Processing.md",
-      "x": -584.4752807617188,
-      "y": 1385.1939697265625
-    },
-    {
-      "id": "Parallel Computing/Multi-Processing/MULTIPROCESSING.md",
-      "x": -461.541748046875,
-      "y": 1232.915283203125
-    },
-    {
-      "id": "Parallel Computing/Multi-Processing/Process Memory Sharing.md",
-      "x": -376.9090881347656,
-      "y": 1416.681884765625
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Events.md",
-      "x": 413.4309387207031,
-      "y": 1102.6641845703125
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
-      "x": 52.198448181152344,
-      "y": 807.5225830078125
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/MULTITHREADING.md",
-      "x": 143.3679962158203,
-      "y": 1011.344482421875
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Thread Sync With Mutex Locks.md",
-      "x": 144.33279418945312,
-      "y": 1239.150634765625
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Multi-Threading.md",
-      "x": -36.50424575805664,
-      "y": 951.153564453125
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
-      "x": 199.78663635253906,
-      "y": 791.5755615234375
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Thread Sync with Condition.md",
-      "x": 324.9452819824219,
-      "y": 1003.31787109375
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Waiting for Threads - Join.md",
-      "x": 7.542254447937012,
-      "y": 1143.1033935546875
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/Waiting for Threads - Wait Group.md",
-      "x": 342.1544189453125,
-      "y": 861.8006591796875
-    },
-    {
-      "id": "Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
-      "x": 293.76568603515625,
-      "y": 1213.94677734375
+      "x": 420.0426330566406,
+      "y": 95.8274154663086
     },
     {
       "id": "Modules/Zip files.md",
-      "x": 1284.693603515625,
-      "y": 100.11289978027344
+      "x": 284.86065673828125,
+      "y": 182.9833984375
+    },
+    {
+      "id": "Modules/csv.md",
+      "x": 156.0996551513672,
+      "y": -363.3990478515625
+    },
+    {
+      "id": "Modules/functools/cache - lru cache.md",
+      "x": -262.8355407714844,
+      "y": -697.7738037109375
+    },
+    {
+      "id": "Modules/functools/functools.md",
+      "x": -100.82212829589844,
+      "y": -519.3160400390625
+    },
+    {
+      "id": "Modules/glob.md",
+      "x": -98.9761734008789,
+      "y": -170.52940368652344
+    },
+    {
+      "id": "Modules/json.md",
+      "x": 286.2554016113281,
+      "y": -418.6549072265625
+    },
+    {
+      "id": "Modules/math.md",
+      "x": 281.2923889160156,
+      "y": 26.2927303314209
+    },
+    {
+      "id": "Modules/networking - scapy.md",
+      "x": 439.0253601074219,
+      "y": -348.754638671875
+    },
+    {
+      "id": "Modules/pipe - SQL like syntax.md",
+      "x": 142.89248657226562,
+      "y": 174.44198608398438
+    },
+    {
+      "id": "Modules/random.md",
+      "x": 62.984596252441406,
+      "y": 17.122119903564453
+    },
+    {
+      "id": "Modules/time and datetime.md",
+      "x": 330.9486999511719,
+      "y": -253.33778381347656
+    },
+    {
+      "id": "Modules/webbrowser.md",
+      "x": 448.6902160644531,
+      "y": -53.607608795166016
+    },
+    {
+      "id": "OOP/OOP.md",
+      "x": 34.422183990478516,
+      "y": -1031.626220703125
+    },
+    {
+      "id": "OOP/Proxy Pattern.md",
+      "x": 211.12869262695312,
+      "y": -1009.39306640625
+    },
+    {
+      "id": "Operators/Asterisk Operator - Packing and Unpacking.md",
+      "x": -1267.96875,
+      "y": -776.61083984375
+    },
+    {
+      "id": "Operators/OPERATORS.md",
+      "x": -1153.4061279296875,
+      "y": -902.2933349609375
+    },
+    {
+      "id": "Operators/_ Operator.md",
+      "x": -1028.8812255859375,
+      "y": -1012.4326782226562
+    },
+    {
+      "id": "Parallel Computing/Multi-Processing/MULTIPROCESSING.md",
+      "x": 506.0174255371094,
+      "y": 1067.0277099609375
+    },
+    {
+      "id": "Parallel Computing/Multi-Processing/Multi-Processing.md",
+      "x": 486.8436584472656,
+      "y": 930.6588134765625
+    },
+    {
+      "id": "Parallel Computing/Multi-Processing/Process Communication.md",
+      "x": 534.0441284179688,
+      "y": 1250.165283203125
+    },
+    {
+      "id": "Parallel Computing/Multi-Processing/Process Memory Sharing.md",
+      "x": 365.74169921875,
+      "y": 1114.699462890625
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Events.md",
+      "x": -307.54681396484375,
+      "y": 996.7621459960938
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Limiting Threads with Semaphore.md",
+      "x": -103.149658203125,
+      "y": 1249.82421875
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/MULTITHREADING.md",
+      "x": -325.7496032714844,
+      "y": 1193.7200927734375
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Multi-Threading.md",
+      "x": -336.3475646972656,
+      "y": 1418.1719970703125
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Thread Sync With Mutex Locks.md",
+      "x": -506.8199768066406,
+      "y": 1358.674072265625
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
+      "x": -465.8896179199219,
+      "y": 997.4310302734375
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Thread Sync with Condition.md",
+      "x": -177.37232971191406,
+      "y": 1387.036376953125
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
+      "x": -504.24468994140625,
+      "y": 1214.9622802734375
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Waiting for Threads - Join.md",
+      "x": -591.8111572265625,
+      "y": 1117.89013671875
+    },
+    {
+      "id": "Parallel Computing/Multi-Threading/Waiting for Threads - Wait Group.md",
+      "x": -178.56251525878906,
+      "y": 1113.0986328125
+    },
+    {
+      "id": "Parallel Computing/PARALLEL COMPUTING.md",
+      "x": 16.639896392822266,
+      "y": 813.3176879882812
+    },
+    {
+      "id": "Shallow vs Deep Copy.md",
+      "x": -1455.2667236328125,
+      "y": 448.16864013671875
+    },
+    {
+      "id": "Variables/Constants.md",
+      "x": -143.364990234375,
+      "y": -1450.8212890625
+    },
+    {
+      "id": "Variables/Magic Variables.md",
+      "x": 184.8869171142578,
+      "y": -1338.428955078125
+    },
+    {
+      "id": "Variables/String.md",
+      "x": -164.4493865966797,
+      "y": -1269.80224609375
+    },
+    {
+      "id": "Variables/VARIABLES.md",
+      "x": 5.551492214202881,
+      "y": -1367.3956298828125
     }
   ],
   "automaticallyRestoreNodePositions": true
