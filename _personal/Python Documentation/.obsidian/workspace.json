@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "946e67d245ff2172",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control Flow/Ternary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -75,6 +87,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "6c02fb3ca8e144e5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -96,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OOP/Proxy Pattern.md",
+                "file": "Control Flow/Ternary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OOP/Proxy Pattern.md",
+                "file": "Control Flow/Ternary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OOP/Proxy Pattern.md"
+                "file": "Control Flow/Ternary.md"
               }
             }
           }
@@ -157,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "179c6ff4dcce410f",
+  "active": "946e67d245ff2172",
   "lastOpenFiles": [
     "OOP/Proxy Pattern.md",
     "Modules/Zip files.md",
