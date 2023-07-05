@@ -40,9 +40,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "66e77a6a45bed7a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "760c1d70ec79d2df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/Dictionary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -116,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Flow/Ternary.md",
+                "file": "Collections/Dictionary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control Flow/Ternary.md",
+                "file": "Collections/Dictionary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Control Flow/Ternary.md"
+                "file": "Collections/Dictionary.md"
               }
             }
           }
@@ -177,8 +201,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "946e67d245ff2172",
+  "active": "760c1d70ec79d2df",
   "lastOpenFiles": [
+    "Collections/List.md",
+    "Control Flow/Ternary.md",
     "OOP/Proxy Pattern.md",
     "Modules/Zip files.md",
     "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
@@ -203,8 +229,6 @@
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync With Mutex Locks.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Condition.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/MULTITHREADING.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Multi-Threading.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
     "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
     "BASIC CONCEPTS/Parallel Computing",
