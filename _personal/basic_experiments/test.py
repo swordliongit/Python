@@ -1,4 +1,3 @@
-from functools import lru_cache
+import datetime
 
-
-print("Hello world")
+print(datetime.datetime.now())

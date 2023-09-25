@@ -18,55 +18,103 @@
             }
           },
           {
-            "id": "179c6ff4dcce410f",
+            "id": "e6981753f18e486b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OOP/Proxy Pattern.md",
+                "file": "Control Flow/Zip.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "946e67d245ff2172",
+            "id": "815e1b014267a063",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Control Flow/Ternary.md",
+                "file": "Control Flow/Zip.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "66e77a6a45bed7a7",
+            "id": "94d782b22319d99b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collections/List.md",
+                "file": "Control Flow/With Context Manager.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "760c1d70ec79d2df",
+            "id": "05a97ea47bf3332e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Collections/Dictionary.md",
+                "file": "Control Flow/Match-Case.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40887f4514a42921",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/Web Automation - selenium.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2b6de8a35059953",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions/Decorator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3aa30d30dc4f05e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40b693a5f45e07e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -95,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "variable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -120,7 +168,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Collections/Dictionary.md",
+                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Collections/Dictionary.md",
+                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +229,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Collections/Dictionary.md"
+                "file": "Operators/Asterisk Operator - Packing and Unpacking.md"
+              }
+            }
+          },
+          {
+            "id": "57f8534b5d0b1eed",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -201,34 +260,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "760c1d70ec79d2df",
+  "active": "40b693a5f45e07e5",
   "lastOpenFiles": [
+    "OOP/Proxy Pattern.md",
+    "Operators/Asterisk Operator - Packing and Unpacking.md",
+    "Functions/Decorator.md",
+    "Modules/Web Automation - selenium.md",
+    "Control Flow/Match-Case.md",
+    "Modules/webbrowser.md",
+    "Control Flow/With Context Manager.md",
+    "Control Flow/Zip.md",
+    "Files and Directories/Files.md",
+    "Parallel Computing/Multi-Processing/MULTIPROCESSING.md",
+    "Parallel Computing/Multi-Threading/Waiting for Threads - Wait Group.md",
+    "Parallel Computing/Multi-Threading/MULTITHREADING.md",
+    "Parallel Computing/PARALLEL COMPUTING.md",
+    "Parallel Computing/Multi-Threading/Waiting for Threads - Join.md",
+    "Functions/FUNCTIONS.md",
+    "Modules/Connected Devices - netifaces.md",
+    "Modules/networking - scapy.md",
+    "Collections/Dictionary.md",
+    "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
     "Collections/List.md",
     "Control Flow/Ternary.md",
-    "OOP/Proxy Pattern.md",
     "Modules/Zip files.md",
-    "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
     "Modules/MODULES.md",
     "OOP/OOP.md",
     "Collections/Set.md",
     "Shallow vs Deep Copy.md",
-    "General Information.md",
-    "PYTHON.md",
-    "Variables/VARIABLES.md",
-    "Variables/Magic Variables.md",
-    "Variables/Constants.md",
-    "Parallel Computing/PARALLEL COMPUTING.md",
-    "Operators/OPERATORS.md",
-    "OOP/BASIC OOP.md",
-    "Functions/FUNCTIONS.md",
-    "BASIC CONCEPTS/Shallow vs Deep Copy.md",
-    "BASIC CONCEPTS/Operators/Asterisk Operator - Packing and Unpacking.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Waiting for Threads - Wait Group.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Waiting for Threads - Join.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync With Mutex Locks.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Condition.md",
-    "BASIC CONCEPTS/Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
     "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
     "BASIC CONCEPTS/Parallel Computing",
