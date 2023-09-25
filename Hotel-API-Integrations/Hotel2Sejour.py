@@ -17,29 +17,18 @@ def H2S_Login():
     return cookie
 
 
-def H2S_Requester(method, cookie, **kwargs) -> list[dict]:
+def H2S_Requester(method, cookie, params) -> list[dict]:
     
     headers = {
         "cookie": cookie
     }
     
-    params = None
-    
-    if method == "gethotelagencies":
-        params = "format=xml"
-    elif method == "getnotconfirmmessages":
-        params = {'format': "xml", 'paximumId': PAXIMUM_ID, 'langId': "tr-TR"}
-    elif method == "getsejourformapping":
-        params = {'format': "xml", 'paximumId': PAXIMUM_ID, 'agencyId': kwargs['agencyId']}
-    elif method == "getreservationlist":
-        params = {'format': "xml", 'paximumId': PAXIMUM_ID, 'agencyId': kwargs['agencyId'], 'status': "", 'isSendRequired': False,
-                  'checkInStart': kwargs['checkInStart'], 'checkInEnd': kwargs['checkInEnd']}
     response = requests.get(
                 url=f"https://admin.hotel2sejour.com/api/pax/{method}", 
                 headers=headers,
                 params=params
             )
-    
+    print(response.content)
     return Parse_XML(method, response.text)
     
 
@@ -80,7 +69,15 @@ def Parse_XML(method, response_text) -> list[dict]:
                 sejour_mapping_data[child_element.tag] = child_element.text
             # Append the dictionary to the results list
             results.append(sejour_mapping_data)
-            
+    elif method == "getreservationlist":
+        element = "ReservationPms"
+        found_elements = root.findall(f".//{element}")
+        for reservation in found_elements:
+            reservation = {}
+            for child_element in reservation:
+                reservation[child_element.tag] = child_element.text
+            results.append(reservation)
+    
     return results
 
 def main():
@@ -93,17 +90,36 @@ def main():
     
     cookie = H2S_Login()
     
-    agencies = H2S_Requester("gethotelagencies", cookie)
+    agencies = H2S_Requester("gethotelagencies", cookie, 
+                             {'format': "xml"})
     print(agencies)
     print()
-    notconfirmmsgs = H2S_Requester("getnotconfirmmessages", cookie)
+    
+    notconfirmmsgs = H2S_Requester("getnotconfirmmessages", cookie, 
+                                   {'format': "xml", 'paximumId': PAXIMUM_ID, 'langId': "tr-TR"})
     print(notconfirmmsgs)
     print()
+    
     sejourcodes_list = []
     for agency in agencies:
-        sejourcodes_list.append(H2S_Requester("getsejourformapping", cookie, {'agencyId': agency['Id']}))
+        sejourcodes_list.append(H2S_Requester("getsejourformapping", cookie, 
+                                              {'format': "xml", 'paximumId': PAXIMUM_ID, 'agencyId': agency['Id']}))
     print(sejourcodes_list)
     print()
-    reservation_list = H2S_Requester("getreservationlist", cookie, {'agencyId': agency['Id'], 'checkInStart': })
+    
+    checkin_date = datetime(2023, 9, 10)
+    checkout_date = datetime(2023, 9, 26)
+    f_checkin_date = checkin_date.strftime("%m.%d.%Y")
+    f_checkout_date = checkout_date.strftime("%m.%d.%Y")
+    reservation_list = H2S_Requester("getreservationlist", cookie, {'format': "xml",
+                                                                    'paximumId': PAXIMUM_ID,
+                                                                    # 'agencyId': None,
+                                                                    'isSendRequired': False,
+                                                                    'checkInStart': f_checkin_date,
+                                                                    'checkInEnd': f_checkout_date,
+                                                                    'status': "",
+                                                                    })
+    print(reservation_list)
+    print()
     
 main()
