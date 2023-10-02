@@ -55,5 +55,6 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "C:/Users/aslan/Desktop/Workspace/Programming/Python/GRPC/grpc/third_party/upb/cmake"
 }

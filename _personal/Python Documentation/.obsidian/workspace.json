@@ -102,19 +102,41 @@
             }
           },
           {
-            "id": "40b693a5f45e07e5",
+            "id": "fd2ead56cbdedd0d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
+                "file": "Modules/Connected Devices - netifaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "adaebcc347076231",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
+          },
+          {
+            "id": "3292c7e6d9eeb74c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/Web Automation - selenium.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -143,7 +165,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "variable",
+                "query": "selenium",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -173,7 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.50434494018555
   },
   "right": {
     "id": "d4c953d74f3fae30",
@@ -189,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
+                "file": "Modules/Web Automation - selenium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -206,7 +228,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
+                "file": "Modules/Web Automation - selenium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -229,7 +251,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Operators/Asterisk Operator - Packing and Unpacking.md"
+                "file": "Modules/Web Automation - selenium.md"
               }
             }
           },
@@ -260,12 +282,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40b693a5f45e07e5",
+  "active": "3292c7e6d9eeb74c",
   "lastOpenFiles": [
-    "OOP/Proxy Pattern.md",
-    "Operators/Asterisk Operator - Packing and Unpacking.md",
-    "Functions/Decorator.md",
+    "Modules/MODULES.md",
+    "Control Flow/CONTROL FLOW.md",
+    "Control Flow/Exception Handling.md",
     "Modules/Web Automation - selenium.md",
+    "Operators/Asterisk Operator - Packing and Unpacking.md",
+    "OOP/Proxy Pattern.md",
+    "Functions/Decorator.md",
     "Control Flow/Match-Case.md",
     "Modules/webbrowser.md",
     "Control Flow/With Context Manager.md",
@@ -284,10 +309,7 @@
     "Collections/List.md",
     "Control Flow/Ternary.md",
     "Modules/Zip files.md",
-    "Modules/MODULES.md",
     "OOP/OOP.md",
-    "Collections/Set.md",
-    "Shallow vs Deep Copy.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
     "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
     "BASIC CONCEPTS/Parallel Computing",
