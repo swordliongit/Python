@@ -1,3 +1,10 @@
-[submodule "Master-Modem-Odoo"]
-	path = Master-Modem-Odoo
-	url = https://github.com/swordliongit/Master-Modem-Odoo
+
+[submodule "MSS5004W-FirmwareUpgrader"]
+	path = MSS5004W-FirmwareUpgrader
+	url = https://github.com/swordliongit/MSS5004W-FirmwareUpgrader.git
+[submodule "CustomTkinter"]
+	path = CustomTkinter
+	url = https://github.com/swordliongit/CustomTkinter.git
+[submodule "ocpp"]
+	path = ocpp
+	url = https://github.com/swordliongit/ocpp.git
