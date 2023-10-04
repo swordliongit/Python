@@ -8,3 +8,6 @@
 [submodule "ocpp"]
 	path = ocpp
 	url = https://github.com/swordliongit/ocpp.git
+[submodule "Bitmap-Bitarray-Suite"]
+	path = Bitmap-Bitarray-Suite
+	url = https://github.com/swordliongit/Bitmap-Bitarray-Suite.git
