@@ -39,7 +39,7 @@ printer()
 ---
 **How to use parameters when using a decorator**
 ```python
-def caller(func):
+def decor(func):
 	def wrapper(*args, **kwargs):
 		print("========")
 		func(*args, **kwargs)
@@ -47,10 +47,12 @@ def caller(func):
 	return wrapper
 
 
-@caller
+@decor
 def adder(x, y):
 	print(x+y)
 
 
 adder(2, 3)
 ```
+
+

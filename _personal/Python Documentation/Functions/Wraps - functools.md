@@ -1,5 +1,12 @@
-from dataclasses import dataclass
+### Notes:
 
+@wraps decorator correctly updates __name__, __doc__ and __help__ methods of a wrapped function of a decorator.
+
+___
+
+
+
+```python
 from functools import wraps
 
 
@@ -23,3 +30,4 @@ func(5, 10)
 print(func.__name__)
 print(func.__doc__)
 help(func)
+```

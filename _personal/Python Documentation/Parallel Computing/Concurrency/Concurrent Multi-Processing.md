@@ -1,3 +1,4 @@
+```python
 import asyncio
 from concurrent.futures import ProcessPoolExecutor
 import random
@@ -54,3 +55,44 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+```
+
+### Program Flow:
+```python
+main()
+|
+|--> Create ProcessPoolExecutor
+|--> Schedule Batch 1 (2000 tasks)
+|       |
+|       |--> run_batch_tasks(0, 2000)
+|           |
+|           |--> query_concurrently(1, 2001) --> fake_crawlers() x 2000
+|
+|--> Schedule Batch 2 (2000 tasks)
+|       |
+|       |--> run_batch_tasks(1, 2000)
+|           |
+|           |--> query_concurrently(2001, 4001) --> fake_crawlers() x 2000
+|
+|--> Schedule Batch 3 (2000 tasks)
+|       |
+|       |--> run_batch_tasks(2, 2000)
+|           |
+|           |--> query_concurrently(4001, 6001) --> fake_crawlers() x 2000
+|
+|--> Schedule Batch 4 (2000 tasks)
+|       |
+|       |--> run_batch_tasks(3, 2000)
+|           |
+|           |--> query_concurrently(6001, 8001) --> fake_crawlers() x 2000
+|
+|--> Schedule Batch 5 (2000 tasks)
+|       |
+|       |--> run_batch_tasks(4, 2000)
+|           |
+|           |--> query_concurrently(8001, 10001) --> fake_crawlers() x 2000
+|
+|--> Collect results from all batches
+|--> Print total number of results and execution time
+
+```
