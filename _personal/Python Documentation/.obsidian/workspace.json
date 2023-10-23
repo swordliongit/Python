@@ -252,9 +252,20 @@
                 "currentVersion": "1.4.16"
               }
             }
+          },
+          {
+            "id": "b72aff242a2c78e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 20
+        ]
       }
     ],
     "direction": "vertical"
@@ -312,7 +323,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.50434494018555
+    "width": 204.50434494018555
   },
   "right": {
     "id": "d4c953d74f3fae30",
@@ -328,7 +339,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions/Wraps - functools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -345,7 +355,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions/Wraps - functools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -367,9 +376,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Functions/Wraps - functools.md"
-              }
+              "state": {}
             }
           },
           {
@@ -399,8 +406,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e71866c6f117d21b",
+  "active": "d4dbeb4d129be5cb",
   "lastOpenFiles": [
+    "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
     "Functions/Decorator.md",
     "Functions/Anonymous Functions - Lambda.md",
     "Functions/Wraps - functools.md",
@@ -408,7 +416,6 @@
     "Functions/Closure.md",
     "Modules/Web Automation - selenium.md",
     "Files and Directories/Directories.md",
-    "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
     "Parallel Computing/Multi-Processing/Multi-Processing.md",
     "Parallel Computing/PARALLEL COMPUTING.md",
     "Parallel Computing/Concurrency/CONCURRENCY - ASYNCIO.md",
