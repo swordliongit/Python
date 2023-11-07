@@ -15,3 +15,4 @@
 [[Web Automation - selenium]]
 [[GUI - customtkinter]]
 [[How to turn .py to .exe]]
+[[Environment Variables - dotenv]]

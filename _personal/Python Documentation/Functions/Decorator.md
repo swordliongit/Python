@@ -56,3 +56,4 @@ adder(2, 3)
 ```
 
 
+[[Wraps - functools]]

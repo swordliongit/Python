@@ -18,221 +18,7 @@
             }
           },
           {
-            "id": "e6981753f18e486b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Control Flow/Zip.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "815e1b014267a063",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Control Flow/Zip.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94d782b22319d99b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Control Flow/With Context Manager.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "05a97ea47bf3332e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Control Flow/Match-Case.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40887f4514a42921",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Web Automation - selenium.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2b6de8a35059953",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions/Decorator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b3aa30d30dc4f05e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fd2ead56cbdedd0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Connected Devices - netifaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "adaebcc347076231",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
-            "id": "3292c7e6d9eeb74c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Web Automation - selenium.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2881238823adb94e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Computing/Concurrency/CONCURRENCY - ASYNCIO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2e465fdb7d824ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Computing/PARALLEL COMPUTING.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0f3879e4a19d04e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Computing/Multi-Processing/Multi-Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4d2c1e1269a9d51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d8328b1ea656b82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Web Automation - selenium.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30ac95bc33ba4ee0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Files and Directories/Directories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "057a3580020b9f34",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions/Decorator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96ce700e03f3c65f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Functions/Anonymous Functions - Lambda.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc1b082841b7950b",
+            "id": "9aec55d29e1d5282",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -242,30 +28,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e71866c6f117d21b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
-            "id": "b72aff242a2c78e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -339,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Functions/Wraps - functools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -355,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Functions/Wraps - functools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -376,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Functions/Wraps - functools.md"
+              }
             }
           },
           {
@@ -406,35 +175,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d4dbeb4d129be5cb",
+  "active": "9aec55d29e1d5282",
   "lastOpenFiles": [
-    "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
+    "Modules/MODULES.md",
+    "Modules/functools/functools.md",
+    "Modules/pipe - SQL like syntax.md",
+    "Modules/Environment Variables - dotenv.md",
     "Functions/Decorator.md",
-    "Functions/Anonymous Functions - Lambda.md",
+    "OOP/Proxy Pattern.md",
+    "Parallel Computing/Concurrency/CONCURRENCY - ASYNCIO.md",
+    "Functions/FUNCTIONS.md",
+    "Collections/Dictionary.md",
     "Functions/Wraps - functools.md",
+    "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
+    "Functions/Anonymous Functions - Lambda.md",
     "Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
     "Functions/Closure.md",
     "Modules/Web Automation - selenium.md",
     "Files and Directories/Directories.md",
     "Parallel Computing/Multi-Processing/Multi-Processing.md",
     "Parallel Computing/PARALLEL COMPUTING.md",
-    "Parallel Computing/Concurrency/CONCURRENCY - ASYNCIO.md",
     "Parallel Computing/Concurrency",
     "Control Flow/Zip.md",
-    "Modules/MODULES.md",
     "Control Flow/CONTROL FLOW.md",
     "Control Flow/Exception Handling.md",
     "Operators/Asterisk Operator - Packing and Unpacking.md",
-    "OOP/Proxy Pattern.md",
     "Control Flow/Match-Case.md",
     "Modules/webbrowser.md",
     "Control Flow/With Context Manager.md",
     "Files and Directories/Files.md",
-    "Parallel Computing/Multi-Processing/MULTIPROCESSING.md",
-    "Parallel Computing/Multi-Threading/Waiting for Threads - Wait Group.md",
-    "Parallel Computing/Multi-Threading/MULTITHREADING.md",
-    "Parallel Computing/Multi-Threading/Waiting for Threads - Join.md",
-    "Functions/FUNCTIONS.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
     "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
     "BASIC CONCEPTS/Parallel Computing",
