@@ -53,9 +53,7 @@ class WebCrawler:
         options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()), options=options
-        )
+        self.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
         # self.driver = webdriver.Chrome(options=options)
 
     def exit(self) -> None:
@@ -164,9 +162,7 @@ class WebCrawler:
 
         # Month Selection
         try:
-            WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, f"#_1_9027_{self.month}"))
-            ).click()
+            WebDriverWait(self.driver, 10).until(EC.element_to_be_clickable((By.CSS_SELECTOR, f"#_1_9027_{self.month}"))).click()
             if DEBUG:
                 print(self.c[2] + "Month Selected")
         except:
@@ -220,10 +216,7 @@ class WebCrawler:
             value = 2
         elif self.option == "Sor Sat":
             value = 3
-        elif (
-            self.option
-            == "Serbest Satış  (Girilen deadline bile olsa satışa açacaktır)"
-        ):
+        elif self.option == "Serbest Satış  (Girilen deadline bile olsa satışa açacaktır)":
             value = 1
         selection_list.select_by_value(str(value))
         if DEBUG:

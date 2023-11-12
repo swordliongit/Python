@@ -1,0 +1,10 @@
+decryptor.py
+encryptor.py
+*.exe
+*.zip
+content/
+content_updater/
+output/
+Patch Center/
+.venv
+.env

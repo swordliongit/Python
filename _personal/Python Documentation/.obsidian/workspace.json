@@ -18,19 +18,43 @@
             }
           },
           {
-            "id": "9aec55d29e1d5282",
+            "id": "40c3adf088fa52b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Functions/Wraps - functools.md",
+                "file": "Modules/Environment Variables - dotenv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad9c3700e7086026",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/Zip files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9e9269aed9740e12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control Flow/Exception Handling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Functions/Wraps - functools.md",
+                "file": "Control Flow/Exception Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Functions/Wraps - functools.md",
+                "file": "Control Flow/Exception Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Functions/Wraps - functools.md"
+                "file": "Control Flow/Exception Handling.md"
               }
             }
           },
@@ -158,11 +182,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -175,18 +200,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9aec55d29e1d5282",
+  "active": "9e9269aed9740e12",
   "lastOpenFiles": [
+    "Modules/Zip files.md",
+    "Collections/Dictionary.md",
+    "Modules/Environment Variables - dotenv.md",
+    "Functions/Wraps - functools.md",
     "Modules/MODULES.md",
     "Modules/functools/functools.md",
     "Modules/pipe - SQL like syntax.md",
-    "Modules/Environment Variables - dotenv.md",
     "Functions/Decorator.md",
     "OOP/Proxy Pattern.md",
     "Parallel Computing/Concurrency/CONCURRENCY - ASYNCIO.md",
     "Functions/FUNCTIONS.md",
-    "Collections/Dictionary.md",
-    "Functions/Wraps - functools.md",
     "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
     "Functions/Anonymous Functions - Lambda.md",
     "Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
@@ -203,7 +229,6 @@
     "Control Flow/Match-Case.md",
     "Modules/webbrowser.md",
     "Control Flow/With Context Manager.md",
-    "Files and Directories/Files.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
     "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
     "BASIC CONCEPTS/Parallel Computing",
