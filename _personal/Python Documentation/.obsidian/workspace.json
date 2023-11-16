@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +127,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Control Flow/Exception Handling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +143,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Control Flow/Exception Handling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +164,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Control Flow/Exception Handling.md"
-              }
+              "state": {}
             }
           },
           {
@@ -200,8 +195,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e9269aed9740e12",
+  "active": "d4dbeb4d129be5cb",
   "lastOpenFiles": [
+    "Control Flow/Exception Handling.md",
     "Modules/Zip files.md",
     "Collections/Dictionary.md",
     "Modules/Environment Variables - dotenv.md",
@@ -224,7 +220,6 @@
     "Parallel Computing/Concurrency",
     "Control Flow/Zip.md",
     "Control Flow/CONTROL FLOW.md",
-    "Control Flow/Exception Handling.md",
     "Operators/Asterisk Operator - Packing and Unpacking.md",
     "Control Flow/Match-Case.md",
     "Modules/webbrowser.md",

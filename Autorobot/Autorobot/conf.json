@@ -7,7 +7,7 @@
   },
   {
    "optionDest": "filenames",
-   "value": "C:/Workspace/Programming/Python/CustomTkinter/Autorobot/main.py"
+   "value": "C:/Workspace/Programming/Python/Autorobot/Autorobot/main.py"
   },
   {
    "optionDest": "onefile",
@@ -19,7 +19,7 @@
   },
   {
    "optionDest": "icon_file",
-   "value": "C:/Workspace/Programming/Python/CustomTkinter/Autorobot/ar.ico"
+   "value": "C:/Workspace/Programming/Python/Autorobot/Autorobot/ar.ico"
   },
   {
    "optionDest": "name",
@@ -63,19 +63,19 @@
   },
   {
    "optionDest": "datas",
-   "value": "C:/Workspace/Programming/Python/CustomTkinter/Autorobot/.venv/Lib/site-packages/customtkinter;customtkinter/"
+   "value": "C:/Workspace/Programming/Python/Autorobot/Autorobot/.env;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Workspace/Programming/Python/CustomTkinter/Autorobot/.env;."
+   "value": "C:/Workspace/Programming/Python/Autorobot/Autorobot/.version;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Workspace/Programming/Python/CustomTkinter/Autorobot/.version;."
+   "value": "C:/Workspace/Programming/Python/Autorobot/Autorobot/ar.ico;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Workspace/Programming/Python/CustomTkinter/Autorobot/ar.ico;."
+   "value": "C:/Workspace/Programming/Python/Autorobot/Autorobot/.venv/Lib/site-packages/customtkinter;customtkinter/"
   }
  ],
  "nonPyinstallerOptions": {

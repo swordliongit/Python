@@ -60,21 +60,22 @@ class Update:
 
     def Read(self):
         raw_data = {
-            "id": 109,
+            "id": 35,
             "jsonrpc": "2.0",
             "method": "call",
             "params": {
                 "model": self.Get_Envar("MODEL"),
-                "method": self.Get_Envar("METHOD"),
-                "args": [],
-                "kwargs": {
-                    "limit": 80,
-                    "offset": 0,
-                    "order": "",
-                    "context": {"lang": "en_US", "tz": "Europe/Istanbul", "uid": 2, "allowed_company_ids": [1], "bin_size": True},
-                    "count_limit": 10001,
-                    "domain": [["name", "=", "Prototype"]],
-                    "fields": ["name", "version", "push_update", "developer"],
+                "domain": [["name", "=", "Prototype"]],
+                "fields": ["name", "version", "push_update", "developer"],
+                "limit": 80,
+                "sort": "",
+                "context": {
+                    "lang": "en_US",
+                    "tz": "Europe/Istanbul",
+                    "uid": 2,
+                    "allowed_company_ids": [1],
+                    "params": {"menu_id": 106, "action": 146, "cids": 1},
+                    "bin_size": True,
                 },
             },
         }

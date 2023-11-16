@@ -417,19 +417,14 @@ def is_admin():
 
 
 if __name__ == "__main__":
-    # initate the gui
-    Autorobot = MasterGui()
-    Autorobot.start_internet_check_thread()
-    sleep(2)
-    Autorobot.Update_Init()
-    # start the gui
-    Autorobot.mainloop()
-
-    # if is_admin():
-    #     # initate the gui
-    #     Autorobot = MasterGui()
-    #     # start the gui
-    #     Autorobot.mainloop()
-    # else:
-    #     # Re-run the program with admin rights
-    #     ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
+    if is_admin():
+        # initate the gui
+        Autorobot = MasterGui()
+        Autorobot.start_internet_check_thread()
+        sleep(2)
+        Autorobot.Update_Init()
+        # start the gui
+        Autorobot.mainloop()
+    else:
+        # Re-run the program with admin rights
+        ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, __file__, None, 1)
