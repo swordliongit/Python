@@ -68,7 +68,9 @@ class DownloadDialog(ctk.CTk):
         if INTERNET_CONNECTED:
             self.patch = Update()
             self.button_download.configure(state="disabled")
-            thread_updater = Thread(target=self.patch.ApplyUpdate, kwargs={"DownloadDialog": self, "Master": self.Main})
+            thread_updater = Thread(
+                target=self.patch.ApplyUpdate, kwargs={"DownloadDialog": self, "Master": self.Main}
+            )
             thread_updater.daemon = True
             thread_updater.start()
         else:
@@ -88,9 +90,13 @@ class MasterGui(ctk.CTk):
         self.tabview.grid(row=0, column=1, padx=(20, 20), pady=(0, 0), sticky="nsew")
         self.tabview.add("Ayarlar")
         self.tabview.add("Hakkında")
-        self.tabview.tab("Ayarlar").grid_columnconfigure(0, weight=1)  # configure grid of individual tabs
+        self.tabview.tab("Ayarlar").grid_columnconfigure(
+            0, weight=1
+        )  # configure grid of individual tabs
         self.tabview.tab("Hakkında").grid_columnconfigure(0, weight=1)
-        self.texbox_about = ctk.CTkTextbox(master=self.tabview.tab("Hakkında"), width=250, height=250)
+        self.texbox_about = ctk.CTkTextbox(
+            master=self.tabview.tab("Hakkında"), width=250, height=250
+        )
         self.texbox_about.grid(row=0, column=0)
         self.texbox_about.insert(
             ctk.END,
@@ -137,7 +143,9 @@ Thank you for choosing Autorobot.
 
         # Create or open the Word document
         self.desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
-        self.document_path = os.path.join(self.desktop_path, cipher_suite.decrypt(os.getenv("DOCUMENT_PATH").encode()).decode())
+        self.document_path = os.path.join(
+            self.desktop_path, cipher_suite.decrypt(os.getenv("DOCUMENT_PATH").encode()).decode()
+        )
         self.document = Document()
         if os.path.exists(self.document_path):
             self.document = Document(self.document_path)
@@ -167,17 +175,23 @@ Thank you for choosing Autorobot.
         self.frame_1 = ctk.CTkFrame(master=self.border_frame)
         self.frame_1.grid(row=0, column=0, padx=20, pady=20, sticky="ns")
 
-        self.DateEntry_label = ctk.CTkLabel(master=self.frame_1, text="Tarih", font=("Segoe UI", 18))
+        self.DateEntry_label = ctk.CTkLabel(
+            master=self.frame_1, text="Tarih", font=("Segoe UI", 18)
+        )
         self.DateEntry_label.grid(row=0, column=0, sticky="nsew")
         self.DateEntry = ctk.CTkEntry(master=self.frame_1, placeholder_text="01.01.2023")
         self.DateEntry.grid(row=1, column=0, padx=10, pady=10, sticky="nsew")
 
-        self.NoteEntry_label = ctk.CTkLabel(master=self.frame_1, text="Açıklama", font=("Segoe UI", 18))
+        self.NoteEntry_label = ctk.CTkLabel(
+            master=self.frame_1, text="Açıklama", font=("Segoe UI", 18)
+        )
         self.NoteEntry_label.grid(row=0, column=1, sticky="nsew")
         self.NoteEntry = ctk.CTkEntry(master=self.frame_1, placeholder_text="Açıklama girin...")
         self.NoteEntry.grid(row=1, column=1, padx=10, pady=10, sticky="nsew")
 
-        self.CostEntry_label = ctk.CTkLabel(master=self.frame_1, text="Tutar", font=("Segoe UI", 18))
+        self.CostEntry_label = ctk.CTkLabel(
+            master=self.frame_1, text="Tutar", font=("Segoe UI", 18)
+        )
         self.CostEntry_label.grid(row=0, column=2, sticky="nsew")
         self.CostEntry = ctk.CTkEntry(master=self.frame_1, placeholder_text="140")
         self.CostEntry.grid(row=1, column=2, padx=10, pady=10, sticky="nsew")
@@ -236,7 +250,10 @@ Thank you for choosing Autorobot.
             pass
 
     def Show_Update_Popup(self):
-        showinfo("Autorobot", "Yeni Güncelleme Mevcut!\nAyarlar->Güncelleme butonundan güncellemeyi indirin")
+        showinfo(
+            "Autorobot",
+            "Yeni Güncelleme Mevcut!\nAyarlar->Güncelleme butonundan güncellemeyi indirin",
+        )
 
     def Update_Control(self):
         global INTERNET_CONNECTED
@@ -275,7 +292,9 @@ Thank you for choosing Autorobot.
         if len(self.document.tables) > 1:
             total_cost_table = self.document.tables[1]
             total_cost_table.rows[0].cells[0].text = f"Toplam Tutar: {self.total_cost:.2f}"
-            total_cost_table.rows[0].cells[0].paragraphs[0].runs[0].bold = True  # Make the text bold
+            total_cost_table.rows[0].cells[0].paragraphs[0].runs[
+                0
+            ].bold = True  # Make the text bold
         else:
             # If the total cost table doesn't exist, create it
             self.create_total_cost_table()
@@ -307,7 +326,10 @@ Thank you for choosing Autorobot.
 
     def Create_Header(self):
         # Check if the header already exists
-        if not self.document.paragraphs or "MASRAF BEYAN FORMU" not in self.document.paragraphs[0].text:
+        if (
+            not self.document.paragraphs
+            or "MASRAF BEYAN FORMU" not in self.document.paragraphs[0].text
+        ):
             # Add a centered and bold title
             title = self.document.add_heading("MASRAF BEYAN FORMU", level=1)
             self.document.add_paragraph("\n")
@@ -359,7 +381,10 @@ Thank you for choosing Autorobot.
         user_entries_table = self.document.tables[0]
 
         # Get the user entries and sort them based on the date column (assuming the date is in the first column)
-        user_entries = [(row.cells[0].text, row.cells[1].text, row.cells[2].text) for row in user_entries_table.rows[1:]]
+        user_entries = [
+            (row.cells[0].text, row.cells[1].text, row.cells[2].text)
+            for row in user_entries_table.rows[1:]
+        ]
         user_entries.sort(key=lambda entry: datetime.strptime(entry[0], "%d.%m.%Y"))
 
         # Clear existing rows in the table

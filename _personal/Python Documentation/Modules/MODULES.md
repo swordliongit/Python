@@ -16,3 +16,4 @@
 [[GUI - customtkinter]]
 [[How to turn .py to .exe]]
 [[Environment Variables - dotenv]]
+[[Scheduling - sched]]

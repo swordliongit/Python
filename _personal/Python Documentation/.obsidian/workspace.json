@@ -52,6 +52,186 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "62ee8afa2e9f796e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/MODULES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4a0ae7794de09c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/Scheduling - sched.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8783cee361ec9fb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6963ebb022726479",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "736c53b7be5c87a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "31af92b87fc53eac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/Dictionary.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d77c30f05f37941c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Control Flow/Exception Handling.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e45e49a34a5d788e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Files and Directories/Directories.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3a90a9a69f00fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/Web Automation - selenium.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fb10c1ae5d9d39d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functions/Anonymous Functions - Lambda.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c80b7b9250cc2d68",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a8bcf0c469fa0f78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "876acfa33d173636",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Collections/List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43ddfe675ffcc4da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modules/time and datetime.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c83d682d461d564",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -173,7 +353,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -197,33 +379,33 @@
   },
   "active": "d4dbeb4d129be5cb",
   "lastOpenFiles": [
+    "Operators/Asterisk Operator - Packing and Unpacking.md",
+    "Modules/time and datetime.md",
+    "Collections/List.md",
+    "Functions/Anonymous Functions - Lambda.md",
+    "Modules/Web Automation - selenium.md",
+    "Files and Directories/Directories.md",
     "Control Flow/Exception Handling.md",
-    "Modules/Zip files.md",
+    "Operators/OPERATORS.md",
     "Collections/Dictionary.md",
+    "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
+    "Control Flow/Match-Case.md",
+    "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
+    "Modules/Scheduling - sched.md",
+    "Modules/MODULES.md",
+    "Modules/Zip files.md",
     "Modules/Environment Variables - dotenv.md",
     "Functions/Wraps - functools.md",
-    "Modules/MODULES.md",
     "Modules/functools/functools.md",
     "Modules/pipe - SQL like syntax.md",
     "Functions/Decorator.md",
     "OOP/Proxy Pattern.md",
     "Parallel Computing/Concurrency/CONCURRENCY - ASYNCIO.md",
     "Functions/FUNCTIONS.md",
-    "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
-    "Functions/Anonymous Functions - Lambda.md",
     "Parallel Computing/Multi-Threading/ThreadPoolExecutor.md",
     "Functions/Closure.md",
-    "Modules/Web Automation - selenium.md",
-    "Files and Directories/Directories.md",
     "Parallel Computing/Multi-Processing/Multi-Processing.md",
-    "Parallel Computing/PARALLEL COMPUTING.md",
     "Parallel Computing/Concurrency",
-    "Control Flow/Zip.md",
-    "Control Flow/CONTROL FLOW.md",
-    "Operators/Asterisk Operator - Packing and Unpacking.md",
-    "Control Flow/Match-Case.md",
-    "Modules/webbrowser.md",
-    "Control Flow/With Context Manager.md",
     "BASIC CONCEPTS/Parallel Computing/Multi-Threading",
     "BASIC CONCEPTS/Parallel Computing/Multi-Processing",
     "BASIC CONCEPTS/Parallel Computing",
