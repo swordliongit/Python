@@ -4,8 +4,8 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 
-EMAIL = "swordlion.business@gmail.com"
-PASSWORD = "QXsWordLi971ZN_"
+EMAIL = ""
+PASSWORD = ""
 
 options = webdriver.ChromeOptions()
 # options.add_argument("--headless=new")
