@@ -1,46 +1,20 @@
+#!/usr/bin/env python
+
 import asyncio
 import websockets
- 
-async def test(client_id):
-    async with websockets.connect('ws://localhost:8000') as websocket:
-        # send client identifier to the server
-        await websocket.send(client_id)
-        response = await websocket.recv()
-        print(response)
- 
- 
-async def run_client(client_id):
-    while True:
-        await test(client_id)
-        await asyncio.sleep(10)
-    
- 
-asyncio.get_event_loop().run_until_complete(run_client("client1"))
 
 
+async def hello():
+    uri = "ws://localhost:8765"
+    async with websockets.connect(uri) as websocket:
+        name = input("What's your name? ")
+
+        await websocket.send(name)
+        print(f">>> {name}")
+
+        greeting = await websocket.recv()
+        print(f"<<< {greeting}")
 
 
-
-
-
-
-
-
-
-
-# import asyncio
-# import websockets
-
-# async def test():
-#     async with websockets.connect('ws://localhost:8000') as websocket:
-#         # await websocket.send("hello")
-#         response = await websocket.recv()
-#         print(f"Client : Server tarafından gönderilen mesaj -> {response}")
- 
-# async def run_client():
-#     while True:
-#         await test()
-#         await asyncio.sleep(5)
- 
- 
-# asyncio.get_event_loop().run_until_complete(run_client())
+if __name__ == "__main__":
+    asyncio.run(hello())
