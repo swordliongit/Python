@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://ssh-remote+95.173.178.148/ocpp"
+		}
+	],
+    "remoteAuthority": "ssh-remote+95.173.178.148",
+    "settings": {}
+}

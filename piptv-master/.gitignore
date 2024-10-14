@@ -1,0 +1,10 @@
+.idea
+piptv.iml
+unlock.sh
+unlock.txt
+unlock.txt.gpg
+build
+dist
+piptv.egg-info
+*.pyc
+__pycache__
