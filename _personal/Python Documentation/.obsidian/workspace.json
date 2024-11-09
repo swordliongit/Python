@@ -14,7 +14,9 @@
             "state": {
               "type": "graph",
               "state": {},
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -26,7 +28,9 @@
                 "file": "Modules/Zip files.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Zip files"
             }
           },
           {
@@ -38,7 +42,9 @@
                 "file": "Control Flow/Exception Handling.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Exception Handling"
             }
           },
           {
@@ -50,7 +56,9 @@
                 "file": "Modules/MODULES.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "MODULES"
             }
           },
           {
@@ -62,7 +70,9 @@
                 "file": "Modules/Scheduling - sched.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Scheduling - sched"
             }
           },
           {
@@ -74,7 +84,9 @@
                 "file": "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Concurrent Multi-Processing"
             }
           },
           {
@@ -86,7 +98,9 @@
                 "file": "Parallel Computing/Multi-Threading/Thread Sync with Barrier.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Thread Sync with Barrier"
             }
           },
           {
@@ -98,7 +112,9 @@
                 "file": "Collections/List.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "List"
             }
           },
           {
@@ -110,7 +126,9 @@
                 "file": "Collections/Dictionary.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Dictionary"
             }
           },
           {
@@ -122,7 +140,9 @@
                 "file": "Control Flow/Exception Handling.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Exception Handling"
             }
           },
           {
@@ -134,7 +154,9 @@
                 "file": "Files and Directories/Directories.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Directories"
             }
           },
           {
@@ -146,7 +168,9 @@
                 "file": "Modules/Web Automation - selenium.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Web Automation - selenium"
             }
           },
           {
@@ -158,7 +182,9 @@
                 "file": "Functions/Anonymous Functions - Lambda.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Anonymous Functions - Lambda"
             }
           },
           {
@@ -170,7 +196,9 @@
                 "file": "Collections/List.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "List"
             }
           },
           {
@@ -182,7 +210,9 @@
                 "file": "Collections/List.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "List"
             }
           },
           {
@@ -194,7 +224,9 @@
                 "file": "Collections/List.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "List"
             }
           },
           {
@@ -206,7 +238,9 @@
                 "file": "Modules/time and datetime.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "time and datetime"
             }
           },
           {
@@ -218,7 +252,9 @@
                 "file": "Operators/Asterisk Operator - Packing and Unpacking.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Asterisk Operator - Packing and Unpacking"
             }
           },
           {
@@ -230,7 +266,9 @@
                 "file": "Parallel Computing/Concurrency/Concurrent Multi-Processing.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Concurrent Multi-Processing"
             }
           },
           {
@@ -242,7 +280,9 @@
                 "file": "OOP/Proxy Pattern.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Proxy Pattern"
             }
           },
           {
@@ -254,7 +294,9 @@
                 "file": "Functions/Wraps - functools.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Wraps - functools"
             }
           },
           {
@@ -266,7 +308,9 @@
                 "file": "Functions/Built-in Functions.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Built-in Functions"
             }
           },
           {
@@ -278,7 +322,9 @@
                 "file": "Functions/Generator.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Generator"
             }
           },
           {
@@ -287,14 +333,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules/Web Automation - selenium.md",
+                "file": "Functions/Anonymous Functions - Lambda.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Anonymous Functions - Lambda"
             }
           }
-        ],
-        "currentTab": 23
+        ]
       }
     ],
     "direction": "vertical"
@@ -314,7 +361,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -329,7 +378,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -337,7 +388,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -345,7 +398,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -368,7 +423,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules/Web Automation - selenium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -376,7 +430,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -385,10 +441,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modules/Web Automation - selenium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -399,7 +456,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -407,9 +466,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Modules/Web Automation - selenium.md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           },
           {
@@ -421,7 +480,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ],
@@ -442,8 +503,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8c96f44e7f5d9874",
+  "active": "d4dbeb4d129be5cb",
   "lastOpenFiles": [
+    "Functions/Anonymous Functions - Lambda.md",
+    "Modules/Web Automation - selenium.md",
     "Functions/Generator.md",
     "Functions/Built-in Functions.md",
     "Functions/Wraps - functools.md",
@@ -453,8 +516,6 @@
     "Operators/Asterisk Operator - Packing and Unpacking.md",
     "Modules/time and datetime.md",
     "Collections/List.md",
-    "Functions/Anonymous Functions - Lambda.md",
-    "Modules/Web Automation - selenium.md",
     "Files and Directories/Directories.md",
     "Control Flow/Exception Handling.md",
     "Operators/OPERATORS.md",
